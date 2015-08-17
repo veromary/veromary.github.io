@@ -1,0 +1,111 @@
+\input opustex
+\input opusgreg
+\input eplain
+
+\font\bigtype = hmin10 scaled \magstep2
+\font\Bigtype = hmin17 scaled \magstep2
+
+\font\musicaps = Priory scaled \magstep5
+\font\textcaps = Priory scaled \magstep4
+
+\musicinitialfont\musicaps
+\textinitialfont\textcaps
+
+\let\augmentum=\gobble
+\let\augmentumduplex=\gobbletwo
+\let\episem=\gobbletwo
+
+\special{papersize=148mm,210mm}
+
+\hoffset1.5mm
+\voffset-7mm
+\hsize100mm
+\vsize173mm
+
+\abovesystem1
+\belowsystem8
+
+\font\itlyrics = cmti9
+\font\smallrm = cmr8
+\font\smallrm = cmr8
+\font\smold = cmmi10 scaled 900
+
+\def\source#1\par{\rightline{\smallrm #1}}
+
+
+\def\engl#1{\cchar{-7}{\itlyrics #1}}
+
+\def\beginhymn #1.{\centerline{\bigtype {#1}}\par\bigskip}
+
+%page 783 Liber
+
+\beginhymn H\ae c dies.
+
+\setgregorian1
+\musicindent14mm
+\raisesong3\Internote
+\setclef13
+\initiumgregorianum
+\musicinitial{Ant.\\II.}{H}%
+\sgn {}{\AE}c\bmolle b\episem b1\clivis aN\climacus baN\clivis aM\episem N1\pes ac\egn
+\spatium
+\sgn di-\engl{\idx{This is the day},}\bivirga c\spatiumparvum\climacus caN\porrectus aNa\egn
+\sgn { }e{s,}\punctum a\augmentum b\egn
+\spatium
+\Asteriscus
+\divisiominor
+\spatium
+\sgn {qu}am\pes Na\egn
+\spatium
+\sgn fe-\bivirga c\egn
+\sgn cit\engl{that the Lord}\bivirga c\torculus dec\climacus caN\punctum a\augmentum b\egn
+\spatium
+\divisiominima
+\spatium
+\custos c
+\lineaproxima
+\sgn D{\'o}-\porrectus cac\egn
+\sgn mi-\engl{hath made:}\trivirga c\egn
+\sgn nu{s:}\groff{\groff{\groff{\augmentum d}}}\clivis ca\spatiumparvum\quilismapes bc\virga d\augmentum d\pes cd\clivis ec\spatiumparvum\punctum c\pressus dc\augmentum b\egn
+\spatium
+\divisiomaior
+\spatium
+\sgn {}ex\punctum a\egn
+\sgn sul\punctum c\egn
+\sgn t{\'e}-\engl{let us rejoice,}\clivis cb\pes cd\nonspatium\climacus ecb\spatiumparvum\pressus cb\egn
+\spatium
+\divisiominima
+\spatium
+\sgn { }{}{}\episem f1\clivis dc\spatiumparvum\climacus dca\egn
+\custos a
+\lineaproxima
+\sgn mu{s,}\pessubbipunctis acaN\spatiumparvum\pes ac\clivis ca\virga c\climacus cba\clivis cN\clivis NM\augmentum L\egn
+\spatium
+\divisiomaior
+\spatium
+\sgn {}et\Salicus MNa\egn
+\spatium
+\sgn l{\ae}-\porrectus aNa\egn
+\sgn t{\'e}-\clivis ca\trivirga c\egn
+\sgn mur\engl{and be glad in it.}\pessubbipunctis cdca\augmentum  b\egn
+\spatium
+\divisiominor
+\spatium
+\sgn {}in\pes Na\egn
+\spatium
+\sgn {}{e}-\clivis ca\spatiumparvum\episem b1\pes cd\egn
+\sgn {}a.\clivis dc\pessubbipunctis dedc\egn
+\spatium
+\divisiominima
+\spatium
+\custos e
+\lineaproxima
+\sgn { }{}{}\clivis ec\pessubbipunctis efdb\climacus caN\quilismascandicus abc\nonspatium\virga d\augmentum d\Salicus cde\egn
+\spatium
+\divisiominima
+\spatium
+\sgn { }{}{}\torculusresupinus dede\spatiumparvum\punctuminclinatum c\spatiumparvum\punctuminclinatum a\spatiumparvum\quilismatorculus bca\augmentum b\egn
+\spatium
+\Finisgregoriana
+
+\end

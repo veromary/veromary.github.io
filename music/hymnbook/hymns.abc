@@ -1,0 +1,337 @@
+X:1
+T:For the Pope
+L:1/4
+Q:1/4=120
+K:C
+G A G G2 c2
+B c d c B c A G G A G G G G E F G E E D2 z
+AGA c cBAG BcA2 z
+BcdcBcAG G2 A2
+AAAAG AcGG GFGA G E2 E2 z
+F E DGG GG2 F2 z
+G GAGG GGGGFEDC EF D2 z
+
+X:2
+T:Creator alme
+L:1/4
+Q:1/4=120
+K:C
+ECEGGAFG z
+GAFGFEDE2 z
+GFDEFEDC z
+CEFGFEDE2 z
+
+
+X:3
+T:Veni, O Sapientia
+L:1/4
+Q:1/4=120
+K:G
+V:1
+e g b b b a c' b a g3
+a b g e g a f e d e3
+a a e e f g2 f e d3
+g a b b b a c' b a g3
+d' d'3 b b3 b a c' b a g a b g e g a f e d e3
+V:2
+b g e e g a2 g f g3
+f e g b g f a g f e3
+a c' b b a g b a g a3
+g f e e e f a g f g3
+g b3 b b3 g a2 g f g f e g b g f a g f e3
+
+X:4
+T:Rorate Caeli
+L:1/4
+Q:1/4=120
+K:F
+FGAA2 dc cBAA2G2 z A BA GFE FED2 z
+FGAAGAABAA2 z AAAAAAAGBAAGF2 z
+ABccccc2cccccc2 z ccccdccBAA2 z
+FGAAA2 GBAAGFF2 z
+AAAAAAAAAAAAAGccBA2 z
+FGAAAABAA2 GFEFED2 z 
+FGAA2 dc cBAA2G2 z A BA GFE FED2 z 
+
+X:5
+T:Gaudete
+L:1/4
+Q:1/4=200
+K:C
+V:1
+a2 a2 g2 a b c'2  c' b2 a g2 g2
+V:2
+e2 e2 e2 e f g2   g g2 e e2 e2
+V:3
+A2 c2 B2 c d e2   e d2 c B2 B2
+V:4
+A2 A2 E2 A G C2   C G2 A E2 E2
+V:1
+g2 a2 b3 a        g2 a b2 a g2 a4
+V:2
+e2 e2 g3 e        e2 d g2 d e2 e4
+V:3
+B2 c2 d3 c        B2 A G2 A B2 A4
+V:4
+E2 A2 G3 A        E2 ^F E2 ^F E2 A,4
+V:1
+a a g a c' b a2 a f e f d2 d2 
+d d f d f g a2 c' a b c' a2 a2
+V:2
+z32
+V:3
+z32
+V:4
+z32
+V:1
+a2 a2 g2 a b c'2  c' b2 a g2 g2
+V:2
+e2 e2 e2 e f g2   g g2 e e2 e2
+V:3
+A2 c2 B2 c d e2   e d2 c B2 B2
+V:4
+A2 A2 E2 A G C2   C G2 A E2 E2
+V:1
+g2 a2 b3 a        g2 a b2 a g2 a4
+V:2
+e2 e2 g3 e        e2 d g2 d e2 e4
+V:3
+B2 c2 d3 c        B2 A G2 A B2 A4
+V:4
+E2 A2 G3 A        E2 ^F E2 ^F E2 A,4
+
+X:6
+T:Adeste fideles
+L:1/4
+Q:1/4=120
+K:G
+g g2 d g a2 d2 b a b c' b2 a g
+g2 f e f g a b f2 e3/2 d/ d4
+d'2 c' b c'2 b2 a b g a f3/2 e/ d g
+g f g a g2 d b b a b c' b2 a b
+c' b a g f2 g c' b2 a3/2 g/ g4
+
+X:7
+T:Puer Natus
+L:1/4
+Q:1/4=150
+K:F
+DFFEFGFEDFED2 z
+DFGAGAGF2 z FFFFAGFE2 z
+DFGABc2 cFFFAGFE2 z DFFEED2 
+
+X:8
+T:Jesu dulcis memoria
+L:1/4
+Q:1/4=150
+K:C
+AAAADFED z AABGAcBA2 z
+ABcdcAcBAG z AABGEGAA2
+
+X:9
+T:Non nobis
+L:1/4
+Q:1/4=130
+K:F
+c2 d e f3/2 f/ e e d2 c2 
+z g a/ a/ f c'2 c' b a3/2 a/ g2
+z d e/ e/ c g2 g f e3/2 e/ d2 :|
+
+X:10
+T:Laudate nomen
+L:1/2
+Q:1/2=120
+K:C
+c2 g e f g e3/2 d1/2 c c' c' b
+c' g/ f/ e/ f/ g a g g c'3/2 d'/ e' d'2
+c'2 z c' d' g g g g2 z2 :|
+
+X:11
+T:Lumen
+L:1/4
+Q:1/4=140
+K:C
+cBGBcAGAGAGF2 z
+FAccBGBcAABAG2 z z
+GAccccccdcc2 z
+ccccccBcAG2
+cBGBcAGAGAGF2 z
+FAccBGBcAABAG2 z z
+
+X:12
+T:Attende Domine
+L:1/4
+Q:1/4=140
+K:C
+CEGGGG2 cBGAG2 z cGDFGEEDC2 z
+EECDD3/2E3/2 AAGAFEE2 z
+GGGGE2 FGAGFED2 z GABcG2 GDFEEDC2 z
+CEGGGG2 cBGAG2 z cGDFGEEDC2 z
+
+X:13
+T:Parce Domine
+L:1/4
+Q:1/4=140
+K:F
+AAAGG2F2 z/ AAAGGFGFE2D2 z
+FEFGA2 EFGFEFED2 z
+AAGABAGFF3/2 z/ GBBAFGGG2A2 z
+cdABAGFF2 z/ EFGADFFED2 z
+AAAGG2F2 z/ AAAGGFGFE2D2 z
+FEFGA2 EFGFEFED2 z
+
+X:14
+T:Gloria Laus
+L:1/4
+Q:1/4=150
+K:C
+AGGAGGFGGAFED2 z/ GG3/2EGGGF2 z
+FAAAAGFGGAFED3/2F3/2 z/ FFEDDCEFD2D2
+AGAA>BccBA3/2G3/2 z/ GAccdccBAGAA2
+AAGA>BcccBA3/2G3/2 z/ GAccdcBAGAA2 z
+AGGAGGFGGAFED2 z/ GG3/2EGGGF2 z
+FAAAAGFGGAFED3/2F3/2 z/ FFEDDCEFD2D2
+
+
+X:15
+T:Vexilla Regis
+L:1/4
+Q:1/4=120
+K:C
+cdefe/2d/2cdd/2e/2dcB2A2 z
+ddecAcBcAG2A2 z
+AAcAGccdedd2c2 z
+cce/2f/2e/2decAcBcAG2A2 z
+ABG2A2
+
+X:16
+T:Ubi caritas
+L:1/4
+Q:1/4=120
+K:F
+P:ABA
+P:A
+ccdeedefede3/2d z cccdd2 z
+P:B
+ccdeedefede3/2d z ccdd2 z
+ccdeedefede3/2d z ccdd2 z
+cdcdeecdcA3/2G z dedc z
+cdcdeecdcA3/2G z ddedcAcc2 z
+
+X:17
+T:Pange Lingua
+L:1/4
+Q:1/4=120
+K:C
+EEFEDGGAcc2 z
+cbccBAcBAG2 z
+GAcBAGAG2 z
+ABGGEAA2D2 z
+EGGEGAAG2 z
+ABGAGFEDE2 z
+EFED2E2
+
+X:18
+T:Stabat Mater
+L:1/4
+Q:1/4=120
+K:C
+FGAGAc_BA2 z
+AGFEDEDC2 z
+GFGAGFF2 z
+
+X:19
+T:Crux fidelis
+M:1/4
+L:1/4
+Q:1/4=120
+K:C
+|: DEGAAGAccBA3/2G z
+BcdeAGcBAA2 z
+AAcBGGFDCDEEFE2 z
+DDAAGEDFEDD2 z
+AAcBGGEFDCDEEFE2 z
+DDAAGEDFEDD2 z :|
+
+X:20
+T:Haec dies
+M:1/4
+L:1/4
+Q:1/4=120
+K:C
+A3/2G_B/2A/2G/2AFA3/2c3/2
+cccAGAGAA2 z
+GAccccdeccAGA2 z/2
+cAccccc2A3/2B/2cd2cdeccddc2 z
+AccBcdecABccB z/2
+d3/2cdcAAcABAccAccBAcGGF2 z
+FGAAGAcAccccdcA2z
+GAcAc3/2d3/2dcdedc z/2
+ecefedBcAGA3/2B/2cd2cde z/2
+dedecAB/2cA2
+
+X:21
+T:Jubilate
+M:4/2
+L:1/4
+Q:1/4=120
+K:G
+|: g2g2f2g2
+gabc'/2b/2a d' b a
+g2d2d2g2
+bc'd'c'/2d'/2d'az d'3/2
+d'/2 c' b a/2 g/2 a a g2 :|
+
+X:22
+T:O filii et filiae
+M:6/8
+L:1/8
+Q:1/8=140
+P:ABABA
+K:C
+P:A
+AABAGAcBAE2 z
+BcBA2 z
+P:B
+AcdedcdcBA2 z
+AcdedcdcBA2 z
+AABAGAcBAE2 z
+BcBA2 z
+
+X:23
+T:Victimae paschali
+M:1/4
+L:1/4
+Q:1/4=120
+P:ABCCD
+K:C
+P:A
+DCDFGFED2 z/2
+AGEGFED2 z
+AcdAGAA2 z
+AGAGFED2 z/2
+FGDEDC2 EFED2 z
+P:B
+AcdAGAA2 z/2
+AGAGFED2 z
+FGDEDC2 EFED2 z
+P:C
+A,CDFGE3/2D z/2
+CFEDECD2 z
+FAGAFGFED2 z
+DGFGAGFGFED2
+P:D
+AcdAAGAA2 z/2
+AcGFED2 z
+CFEGAA2 z/2 FGFED2 z
+DEDC2D2 z/2 CFEDD2
+
+X:24
+T:Salve festa
+M:1/4
+L:1/4
+Q:1/4=100
+K:C
+EEGEGAFEDE3/2 z/2 GAcAGAGFDEE2 z
+FEDFAGE3/2D z/2 FGAGFDEE2 z
+

@@ -1,0 +1,58 @@
+
+div.main {
+margin-left: 11em; 
+padding-left: 1em; 
+}
+
+div.foobar {
+background: #ffff99;  /* tmp */
+color: black; 
+left: 0; /* this puts the navbar into its place */ 
+position: absolute; 
+top: 0; /* this puts the navbar into its place */
+padding-left: 1%; 
+padding-right: 1%; 
+width: 10em; 
+border-right: thick dotted #DDD600;
+}
+
+div.foobar b {
+    font-style: normal;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: large;
+    }
+
+p.quote {
+font-size: large;
+margin: 2em 4em;
+}
+
+p.hbar {
+font-size: small;
+text-align: center;
+}
+
+h1 {
+text-align: center;
+}
+
+ul {
+list-style-type: none; 
+list-style-image: url(music.gif)
+} 
+
+ul ul {
+list-style-type: none; 
+list-style-image: url(music2.gif)
+} 
+
+ul ul ul {
+list-style-type: none; 
+list-style-image: url(music3.gif)
+} 
+
+
+a {
+text-decoration: none;
+}

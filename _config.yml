@@ -1,10 +1,12 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+name: Brandt Lab
+author: Veronica Brandt
+title: Brandt Lab
+description: A family workroom
 
-url: http://brianmaierjr.github.com/long-haul
+url: http://localhost:4000
 baseurl: ""
 paginate_path: "blog/page:num/"
-permalink: blog/:title/
+permalink: date
 
 markdown: redcarpet
 highlighter: pygments
@@ -19,9 +21,16 @@ navigation:
    url: /contact
 
 social:
-   github: brianmaierjr
-   twitter: brianmaierjr
-   facebook: brianmaierjr
-   email: brimaidesigns@gmail.com
+   github: veromary
+   twitter: veromarybrrr
+   facebook: veromarybrrr
 
-google_analytics: "UA-58263416-1"
+google_analytics: "UA-39801667-1"
+email: veroicon@gmail.com
+DISQUS_SITENAME: brandtlab
+
+FEED_RSS: http://feeds.feedburner.com/brandtlab
+
+collections:
+  biblestudy:
+    output: true

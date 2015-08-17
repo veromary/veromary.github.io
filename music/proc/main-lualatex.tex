@@ -1,0 +1,50 @@
+\documentclass[14pt, a4paper]{memoir}
+\usepackage[british,latin]{babel}
+%\usepackage{lettrine}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Linux Libertine O}
+\usepackage{fullpage}
+%\usepackage{qtimes}
+\usepackage{color}
+%\usepackage{libertine}
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+\usepackage{gregoriotex}
+
+\makepagestyle{plain}
+\makeevenfoot{plain}{}{\small (Veronica Brandt http://www.brandt.id.au)}{}
+\makeoddfoot{plain}{}{\small (Veronica Brandt http://www.brandt.id.au)}{}
+
+\pagestyle{plain}
+
+\begin{document}
+
+%\begin{center}\begin{huge}\textsc{Proclamation of Moveable Feasts}\end{huge}\end{center}
+\begin{center}\begin{huge}\textsc{De publicatione Festorum mobilium}\end{huge}
+
+(with Corpus et Sanguinis Christi transferred)
+\end{center}
+
+
+\setspaceafterinitial{2.2mm plus 0em minus 0em}
+\setspacebeforeinitial{2.2mm plus 0em minus 0em}
+\setgrefactor{20}
+
+\def\greinitialformat#1{%
+{\fontsize{43}{43}\selectfont #1}%
+}
+\def\gretextformat#1{%
+{\fontsize{16}{16}\selectfont #1}%
+}
+
+\redlines
+
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{III}}}{\small \textsc{\textbf{III}}}
+\commentary{{\small \emph{Epiphania 2015}}}
+\includescore{proc2015shiftcc_of.tex}
+
+
+{\footnotesize 
+\noindent }
+\end{document}

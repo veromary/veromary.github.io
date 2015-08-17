@@ -1,0 +1,114 @@
+\input opustex
+\input opusgreg
+
+\input eplain
+
+\font\bigtype = hmin10 scaled \magstep2
+\font\Bigtype = hmin17 scaled \magstep2
+
+\font\musicaps = Priory scaled \magstep5
+\font\textcaps = Priory scaled \magstep4
+
+\musicinitialfont\musicaps
+\textinitialfont\textcaps
+
+\special{papersize=148mm,210mm}
+
+\hoffset1.5mm
+\voffset-7mm
+\hsize100mm
+\vsize173mm
+
+\def\beginhymn #1.{\centerline{\bigtype {#1}}\par\bigskip}
+
+\def\mycr{\par\vskip-\parskip}
+
+\def\beginlyrics{\begingroup
+                       \def\\{\mycr}
+                       \pretolerance=10000
+                       \raggedright
+                       \parskip=5pt
+                       \parindent-3mm}
+\def\endlyrics{\endgroup}
+
+\def\verse#1. {\hskip2mm\llap{{\oldstyle #1}. }}
+
+\font\smallrm = cmr8
+\font\smold = cmmi10 scaled 900
+
+\def\source#1\par{\rightline{\smallrm #1}}
+
+
+\nopagenumbers
+
+\beginhymn O Sacred Head sore wounded.
+
+\moveleft0mm\hbox{
+
+\vtop{
+\hsize55mm
+{\leftskip1em
+\textinitial{O}{ Sacred Head!} sore wounded,\\}
+\beginlyrics
+\qquad With grief and shame weighed down,\\
+O Kingly Head! surrounded\\
+\quad With thorns, thy only crown;\\
+Death's pallor now comes o'er thee,\\
+\quad The glow of life decays,\\
+Yet hosts of heaven adore thee\\
+\quad And tremble as they gaze.
+
+\verse2. What language shall I borrow\\
+\quad To thank thee, dearest Friend,\\
+For this thy dying sorrow,\\
+\quad Thy pity without end?\\
+O agony and dying!\\
+\quad O love to sinners free!\\
+Jesus, all grace supplying,\\
+\quad Turn thou thy face on me.
+
+\endlyrics
+
+}
+
+\hskip3mm
+
+\vtop{
+\hsize50mm
+
+\beginlyrics
+
+\verse3. In this thy bitter passion\\
+\quad Sweet Jesus, think of me.\\
+With thy most sweet compassion,\\
+\quad Unworthy though I be:\\
+Beneath thy cross abiding\\
+\quad Forever would I rest,\\
+In thy dear love confiding,\\
+\quad And with thy presence blest.
+
+\verse4. Be thou my consolation,\\
+\quad My shield, when I must die;\\
+Remind me of thy passion\\
+\quad When my last hour draws nigh.\\
+Mine eyes shall then behold thee;\\
+\quad Upon thy cross shall dwell,\\
+My heart by faith enfold thee;\\
+\quad Who dieth thus, dies well.
+
+\endlyrics
+
+}
+}
+
+\medskip
+
+\source Paul Gerhardt {\smold 1607}-{\smold 76} from Salve caput cruentatum
+
+\source attrib. Bernard of Clairvaux
+
+\source tr. Henry Williams Baker {\smold 1821}-{\smold 77} and
+
+\source James Waddell Alexander {\smold 1804}-{\smold 59}
+
+\end

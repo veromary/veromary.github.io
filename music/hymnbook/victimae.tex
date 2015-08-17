@@ -1,0 +1,433 @@
+\input opustex
+\input opusgreg
+\input eplain
+
+\font\bigtype = hmin10 scaled \magstep2
+\font\Bigtype = hmin17 scaled \magstep2
+
+\font\musicaps = Priory scaled \magstep5
+\font\textcaps = Priory scaled \magstep4
+
+\musicinitialfont\musicaps
+\textinitialfont\textcaps
+
+\let\augmentum=\gobble
+\let\augmentumduplex=\gobbletwo
+\let\episem=\gobbletwo
+
+\special{papersize=148mm,210mm}
+
+\hoffset1.5mm
+\voffset-7mm
+\hsize100mm
+\vsize173mm
+
+\abovesystem1
+\belowsystem8
+
+\font\itlyrics = cmti9
+\font\smallrm = cmr8
+\font\smallrm = cmr8
+\font\smold = cmmi10 scaled 900
+
+\def\source#1\par{\rightline{\smallrm #1}}
+
+
+\def\engl#1{\cchar{-7}{\itlyrics #1}}
+\def\sengl#1{\cchar{-9}{\itlyrics #1}}
+
+\def\beginhymn #1.{\centerline{\bigtype {#1}}\par\bigskip}
+
+\def\mycr{\par\vskip-\parskip}
+
+\def\beginlyrics{\begingroup
+                       \def\\{\mycr}
+                       \pretolerance=10000
+                       \raggedright
+                       \parskip=5pt
+                       \parindent-3mm}
+\def\endlyrics{\endgroup}
+
+\def\verse#1. {\hskip2mm\llap{{\oldstyle #1}. }}
+
+\nopagenumbers
+
+%Victimae Paschali Laudes
+
+\beginhymn Victim\ae\ paschali laudes.
+
+\setgregorian1
+\setclef14
+\nosolesmescustos
+\raisesong3\Internote
+\musicindent14mm
+\initiumgregorianum
+\musicinitial{I.}{V}%
+\sgn {}Ic\punctum K\egn
+\sgn tim\engl{To the Paschal Victim}\punctum J\egn
+\sgn {}{\ae}{}\punctum K\egn
+\spatium
+\sgn pas\punctum M\egn
+\sgn {ch}{\'a}l\punctum N\egn
+\sgn {}i{}\punctum M\egn
+\spatium
+\sgn l{a}u\punctum L\egn
+\sgn des\punctum K\augmentum L\egn
+\spatium
+\Asteriscus
+\divisiominima
+\spatium
+\sgn {}{\'\i}m\punctum a\egn
+\sgn mol\punctum N\egn
+\sgn {}e{nt}\engl{let Christians offer a sacrifice of praise.}\punctum L\egn
+\spatium
+\sgn {Chr}is\punctum N\egn
+\sgn ti-\punctum M\egn
+\sgn {}{\'a}n\punctum L\egn
+\sgn {}i.\punctum K\augmentum L\egn
+\spatium
+\divisiofinalis
+\spatium
+\custos a
+\lineaproxima
+\sgn {}Ag\punctum a\egn
+\sgn nus\punctum c\egn
+\spatium
+\sgn red\punctum d\egn
+\sgn {}{\'e}m\engl{The Lamb has redeemed the sheep;}\punctum a\egn
+\sgn {}it\punctum N\egn
+\spatium
+\sgn {}{o}v\punctum a\egn
+\sgn {}e{s:}\punctum a\augmentum b\egn
+\spatium
+\divisiominor
+\spatium
+\sgn {Chr}{i}s\punctum a\egn
+\sgn tus\punctum N\egn
+\spatium
+\sgn {}{\'\i}n\punctum a\egn
+\sgn noc\punctum N\egn
+\sgn {}e{ns}\punctum M\egn
+\spatium
+\sgn P{a}t\engl{Christ, sinless, has reconciled}\punctum L\egn
+\sgn ri{}\punctum K\augmentum L\egn
+\spatium
+\divisiominima
+\spatium
+\sgn rec\punctum M\egn
+\sgn {}on\punctum N\egn
+\sgn ci-\punctum K\egn
+\custos L
+\lineaproxima
+\sgn li-\punctum L\egn
+\sgn {}{\'a}v\punctum K\egn
+\sgn {}it\engl{sinners to the Father.}\punctum J\augmentum J\egn
+\spatium
+\sgn pec\punctum L\egn
+\sgn cat\punctum M\egn
+\sgn {}{\'o}r\punctum L\egn
+\sgn {}e{s.}\punctum K\augmentum L\egn
+\spatium
+\divisiofinalis
+\spatium
+\sgn Mo{rs}\punctum a\egn
+\spatium
+\sgn {}et\punctum c\egn
+\spatium
+\sgn v{i}t\engl{Death and life were locked}\punctum d\egn
+\sgn {}a{}\punctum a\egn
+\spatium
+\sgn du-\punctum N\egn
+\sgn {}{\'e}l\punctum a\egn
+\sgn lo{}\punctum a\augmentum b\egn
+\spatium
+\divisiominima
+\spatium
+\sgn con\punctum a\egn
+\sgn {fl}ix\punctum N\egn
+\sgn {}{\'e}r\punctum a\egn
+\sgn {}e{}\punctum N\egn
+\spatium
+\sgn mir\engl{in a marvellous struggle;}\punctum M\egn
+\sgn {}{\'a}{n-}\punctum L\egn
+\raisesong0\Internote
+\custos K
+\belowsystem{10}
+\lineaproxima
+\sgn do:\punctum K\augmentum L\egn
+\spatium
+\divisiominor
+\spatium
+\sgn dux\punctum M\egn
+\spatium
+\sgn v{i}t\punctum N\egn
+\sgn {}{\ae}{}\punctum K\egn
+\spatium
+\sgn m{\'o}r\punctum L\egn
+\sgn tu-\sengl{The Prince of life died but now lives and reigns.}\punctum K\egn
+\sgn {}u{s,}\punctum J\augmentum J\egn
+\spatium
+\sgn r{e}g\punctum L\egn
+\sgn nat\punctum M\egn
+\spatium
+\sgn v{i}v\punctum L\egn
+\sgn {}u{s.}\punctum K\augmentum L\egn
+\spatium
+\divisiofinalis
+\spatium
+\sgn Dic\punctum H\egn
+\spatium
+\sgn n{o}b\punctum J\egn
+\sgn {}is\punctum K\egn
+\spatium
+\sgn Mar\sengl{Tell us, Mary,}\punctum M\egn
+\sgn {}{\'\i}-\punctum N\egn
+\sgn {}a,\episem N1\clivis LK\egn
+\spatium
+\divisiominima
+\spatium
+\raisesong3\Internote
+\custos J
+\belowsystem8
+\lineaproxima
+\sgn {qu}id\punctum J\egn
+\spatium
+\sgn vid\punctum M\egn
+\sgn {}{\'\i}s\punctum L\egn
+\sgn ti{}\engl{what didst thou see on the way?}\punctum K\egn
+\spatium
+\sgn {}in\punctum L\egn
+\spatium
+\sgn v{i}-\punctum J\egn
+\sgn {}a?\punctum K\augmentum L\egn
+\spatium
+\divisiofinalis
+\spatium
+\sgn Sep\punctum M\egn
+\sgn {}{\'u}l\punctum a\egn
+\sgn {cr}um\punctum N\egn
+\spatium
+\sgn {Chr}{i}s\punctum a\egn
+\sgn ti{}\engl{`I saw the tomb of the living Christ}\punctum M\egn
+\spatium
+\sgn viv\punctum N\egn
+\sgn {}{\'e}n\cephalicus ML\egn
+\sgn ti{s,}\punctum K\augmentum L\egn
+\spatium
+\divisiominor
+\spatium
+\sgn {}et\punctum K\egn
+\spatium
+\custos N
+\raisesong0\Internote
+\belowsystem{10}
+\lineaproxima
+\sgn {gl}{\'o}r\punctum N\egn
+\sgn {}i-\punctum M\egn
+\sgn {}am\sengl{and His glory as He rose;}\punctum N\egn
+\spatium
+\sgn v{i}d\punctum a\egn
+\sgn {}i{}\punctum N\egn
+\spatium
+\sgn res\punctum M\egn
+\sgn {}ur\punctum N\egn
+\sgn g{\'e}n\cephalicus ML\egn
+\sgn ti{s:}\punctum K\augmentum L\egn
+\spatium
+\divisiofinalis
+\spatium
+\sgn {}An\punctum H\egn
+\sgn g{\'e}l\sengl{I saw angels who gave witness,}\punctum J\egn
+\sgn {}ic\punctum K\egn
+\sgn {}os\punctum M\egn
+\spatium
+\sgn {t}{e}s\punctum N\egn
+\sgn te{s,}\episem N1\clivis LK\egn
+\spatium
+\divisiominima
+\spatium
+\sgn sud\punctum J\egn
+\sgn {}{\'a}r\punctum M\egn
+\sgn {}i-\punctum L\egn
+\sgn {}u{m,}\sengl{and the cloths}\punctum K\egn
+\spatium
+\sgn {}et\punctum L\egn
+\spatium
+\custos J
+\raisesong3\Internote
+\belowsystem8
+\lineaproxima
+\sgn v{e}s\punctum J\egn
+\sgn te{s.}\engl{which had covered Him.}\punctum K\augmentum L\egn
+\spatium
+\divisiofinalis
+\spatium
+\sgn Sur\punctum M\egn
+\sgn r{\'e}x\punctum a\egn
+\sgn {}it\punctum N\egn
+\spatium
+\sgn {Chr}{i}s\punctum a\egn
+\sgn tus\punctum M\egn
+\spatium
+\sgn {sp}es\engl{Christ my hope has risen,}\punctum N\egn
+\spatium
+\sgn m{e}-\clivis ML\egn
+\sgn {}a:\punctum K\augmentum L\egn
+\spatium
+\divisiominor
+\spatium
+\sgn {pr}{\ae}c\punctum K\egn
+\sgn {}{\'e}d\punctum N\egn
+\sgn {}et\punctum M\egn
+\spatium
+\sgn s{u}-\engl{and goes before you }\punctum N\egn
+\sgn {}os\punctum a\egn
+\spatium
+\sgn {}in\punctum N\egn
+\spatium
+\custos M
+\lineaproxima
+\sgn Gal\punctum M\egn
+\sgn {}il\engl{into Galilee.'}\punctum N\egn
+\sgn {}{\'\ae}-\clivis ML\egn
+\sgn {}a{m.}\punctum K\augmentum L\egn
+\spatium
+\divisiofinalis
+\spatium
+\sgn {Sc}{i}m\punctum a\egn
+\sgn {}us\punctum c\egn
+\spatium
+\sgn {Chr}{i}s\punctum d\egn
+\sgn tum\punctum a\egn
+\spatium
+\sgn sur\punctum a\egn
+\sgn rex\punctum N\egn
+\sgn {}{\'\i}s\engl{We know that Christ is risen indeed;}\punctum a\egn
+\sgn se{}\punctum a\augmentum b\egn
+\spatium
+\divisiominima
+\spatium
+\sgn {}a{}\punctum a\egn
+\spatium
+\sgn m{\'o}r\punctum c\egn
+\sgn tu-\punctum N\egn
+\sgn {}is\punctum M\egn
+\spatium
+\sgn ver\punctum L\egn
+\sgn {}e:\punctum K\augmentum L\egn
+\spatium
+\divisiominor
+\spatium
+\custos J
+\lineaproxima
+\sgn tu{}\punctum J\egn
+\spatium
+\sgn n{o}b\punctum M\egn
+\sgn {}i{s,}\engl{Do Thou, victorious King,}\punctum L\egn
+\spatium
+\sgn v{i}c\punctum N\egn
+\sgn tor\punctum a\egn
+\spatium
+\sgn Re{x,}\punctum a\augmentum b\egn
+\spatium
+\divisiominima
+\spatium
+\sgn mis\punctum M\egn
+\sgn {}er\punctum N\egn
+\sgn {}{\'e}-\clivis ML\egn
+\sgn re.\engl{have mercy on us.}\punctum K\augmentum L\egn
+\spatium
+\divisiofinalis
+\spatium
+\sgn {}Am\torculus KLK\egn
+\sgn {}e{n.}\pes JK\augmentumduplex LJ\egn
+\spatium
+\divisiominima
+\spatium
+\sgn {}Al\punctum J\egn
+\sgn lel\punctum M\egn
+\sgn {}{\'u}i\cephalicus LK\egn
+\sgn {}a.\punctum K\augmentum L\egn
+\spatium
+\Finisgregoriana
+
+\bigskip
+
+\moveleft5mm\hbox{
+
+\vtop{
+
+\hsize52mm
+
+\beginlyrics
+
+{ \itlyrics Alternate translation:}
+
+\smallskip
+
+%\it
+
+\verse1. \idx{Bring, all ye dear-bought nations, bring}\\
+Your richest praises to your King,\\
+Alleluia, alleluia.\\
+That spotless Lamb, who more than due,\\
+Paid for His sheep , and those sheep you:\\
+Alleluia, alleluia,\\
+Alleluia, alleluia, alleluia.
+
+\verse2. That guiltless Son, who bought your peace,\\
+And made His Father's anger cease,\\
+Alleluia, alleluia.\\
+Then, Life and Death together fought,\\
+Each to a strange extreme was brought:
+
+\endlyrics
+
+}
+
+\hskip6mm
+
+\vtop{
+\hsize52mm
+
+\beginlyrics
+
+%\it
+
+\vskip0pt
+
+\verse3. Life died, but soon revived again,\\
+And even death by it was slain,\\
+Alleluia, alleluia.\\
+Say, happy Magdalen, oh say,\\
+What didst thou see there by the way?:
+
+
+\verse4. ``I saw the tomb of my dear Lord,\\
+I saw Himself and Him adored;\\
+Alleluia, alleluia.\\
+I saw the napkin and the sheet,\\
+That bound His hands and wrapped His feet:''
+
+\verse5. We, Lord, with faithful hearts and voice,\\
+On this Thy rising day rejoice;\\
+Alleluia, alleluia.\\
+O Thou, whose power o'ercame the grave,\\
+By grace and love us sinners save:
+
+\endlyrics
+
+}
+
+}
+
+
+
+\medskip
+
+\source 11th century
+
+\source Translated by W.~K.~Blount, d.~1717
+
+
+\end

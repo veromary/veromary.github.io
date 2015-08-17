@@ -1,0 +1,50 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[british,latin]{babel}
+%\usepackage{lettrine}
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Linux Libertine O}
+\usepackage{fullpage}
+%\usepackage{qtimes}
+\usepackage{color}
+%\usepackage{libertine}
+%\usepackage[T1]{fontenc}
+%\usepackage[utf8]{inputenc}
+\usepackage{gregoriotex}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\small Prepared with gregorio http://home.gna.org/gregorio \\ Downloaded from http://brandt.id.au/music/epiphany.html --- May be copied freely.
+}
+%\fancyfoot[LE,RO]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\begin{document}
+
+\begin{center}\begin{huge}\textsc{De publicatione Festorum mobilium}\end{huge}\end{center}
+
+\setspaceafterinitial{2.2mm plus 0em minus 0em}
+\setspacebeforeinitial{2.2mm plus 0em minus 0em}
+\setgrefactor{20}
+
+\def\greinitialformat#1{%
+{\fontsize{43}{43}\selectfont #1}%
+}
+\def\gretextformat#1{%
+{\fontsize{16}{16}\selectfont #1}%
+}
+
+\redlines
+
+\gresetfirstlineaboveinitial{\small \textsc{\textbf{III}}}{\small \textsc{\textbf{III}}}
+\commentary{{\small \emph{Epiphania 2013}}}
+\includescore{proc2013.tex}
+
+
+{\footnotesize 
+\noindent }
+\end{document}

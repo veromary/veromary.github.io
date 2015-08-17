@@ -1,0 +1,50 @@
+Title: Silent Night
+Composer: ~
+Style: Singer Singer
+Meter: 6/8
+Bars/Line: 4
+Space: 7
+%%\input musixgui
+%%\raiseguitar{18}
+%%\def\Cmajor{\guitar C{}x--o-o\gdot23\gdot32\gdot51}
+%%\def\Fmajor{\guitar {F}{}xx----\gdot33\gdot42\gdot51\gdot61}
+%%\def\Gmajor{\guitar G{}--ooo-\gdot13\gdot22\gdot63}
+%%\def\Dminor{\guitar {Dm}{}xxo---\gdot42\gdot53\gdot61}
+%%\def\Gseven{\guitar {G7}{}--ooo-\gdot13\gdot22\gdot61}
+
+\Cmajor\ ( g8d a1 ) g8 e4d | ( g8d a1 ) g8 e4d | 
+L: 1. Si-lent night, ho-ly night,
+L: 2. Si-lent night, ho-ly night,
+L: 3. Si-lent night, ho-ly night,
+( g8d a1 ) g8 e4d | ( e8d f1 ) e8 c4d |
+
+\Gseven\ d4+ d8 b4d | \Cmajor\ c4 c8 g4d |
+L: All is calm, all is bright;
+L: Shep-herds quake at the sight;
+L: Son of God, Love's pure light;
+ f4 f8 f4d | e4 e8 e4d |
+
+\Fmajor\ a4 a8 ( c8d b1 ) a8 | \Cmajor\ g8d a1 g8 e4d |
+L: Round yon vir-gin, moth-er and child,
+L: Glo-ry streams from hea-ven a-far,
+L: Ra-diance beams from Thy ho-ly Face,
+f4 f8 ( a8d g1 ) f8 | ( e8d f1 ) e8 c4d |
+
+\Fmajor\ a4 a8 (" c8d b1 ) a8 | \Cmajor\ (" g8d a1 ) g8 e4d |
+L: Ho-ly in-fant so ten-der and mild,
+L: Hea-venly hosts ~ sing Al-le-lu-ia.
+L: With the dawn of re-deem--ing grace,
+f4 f8 a8d g1 f8 | e8d f1 e8 c4d |
+
+\Gseven\ d4+ d8 f8d d1 b8 | \Cmajor\ ( c4d e4d ) |
+L: Sleep in hea-ven-ly peace,
+L: Christ the Sa-viour is born,
+L: Je-sus Lord at Thy birth,
+f4 f8 f8d f1 f8 | ( e4d g4 ) r8 |
+
+( c8d g1 ) e8 \Gseven\ g8d f1 d8 | \Cmajor\ c2d |
+L: Sleep in hea-ven-ly peace,
+L: Christ the Sa-viour is born,
+L: Je-sus Lord at Thy birth,
+e4 c8 b8d b1 b8 | c2d |
+

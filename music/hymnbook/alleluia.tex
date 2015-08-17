@@ -1,0 +1,78 @@
+\input opustex
+\input opusgreg
+\input eplain
+
+\font\bigtype = hmin10 scaled \magstep2
+\font\Bigtype = hmin17 scaled \magstep2
+
+\font\smallcaps = cmcsc10 scaled 900
+\font\musicaps = Priory scaled \magstep5
+\font\textcaps = Priory scaled \magstep4
+
+\musicinitialfont\musicaps
+\textinitialfont\textcaps
+
+\let\augmentum=\gobble
+\let\augmentumduplex=\gobbletwo
+\let\episem=\gobbletwo
+
+\special{papersize=148mm,210mm}
+
+\hoffset1.5mm
+\voffset-7mm
+\hsize100mm
+\vsize173mm
+
+\abovesystem1
+\belowsystem8
+
+\font\itlyrics = cmti9
+\font\smallrm = cmr8
+\font\smallrm = cmr8
+\font\smold = cmmi10 scaled 900
+
+\def\source#1\par{\rightline{\smallrm #1}}
+
+
+\def\engl#1{\cchar{-7}{\itlyrics #1}}
+
+\def\beginhymn #1.{\centerline{\bigtype {#1}}\par\bigskip}
+
+\nopagenumbers
+%page 776 Liber
+
+\beginhymn Alleluia.
+
+This alleluia comes from Lauds of Easter Sunday.
+
+\smallskip
+
+\setgregorian1
+\musicindent14mm
+\setclef14
+\raisesong3\Internote
+\initiumgregorianum
+\musicinitial{Ant.\\VI.}{A}%
+\sgn {}Ll\punctum M\egn
+\sgn {}el\punctum N\egn
+\sgn {}{\'u}-\punctum a\egn
+\sgn ia,\punctum M\augmentum N\egn
+\spatium
+\Asteriscus
+\divisiominima
+\spatium
+\sgn {}al\pes Na\egn
+\sgn lel\punctum N\egn
+\sgn {}u-\punctum M\egn
+\sgn ia,\episem L1\clivis KJ\egn
+\spatium
+\divisiominima
+\spatium
+\sgn {}al\punctum M\egn
+\sgn le-\pes Na\egn
+\sgn l{\'u}-\cephalicus NM\egn
+\sgn ia.\punctum M\augmentum N\egn
+\spatium
+\Finisgregoriana
+
+\end

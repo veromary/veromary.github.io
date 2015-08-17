@@ -1,0 +1,29 @@
+---
+layout: post
+title: Bikes
+category: Photos
+---
+
+Peter has made himself a recumbent trike.
+
+!{{ site.url }}/photos/bikepeter.jpg(Peter and recumbent tricycle)!
+
+Four boys on their bikes.
+
+!{{ site.url }}/photos/bikepat.jpg(Patrick)!
+
+
+!{{ site.url }}/photos/bikechris.jpg(Christopher)!
+
+
+!{{ site.url }}/photos/bikeanthony.jpg(Anthony)!
+
+
+!{{ site.url }}/photos/bikebernard.jpg(Bernard)!
+
+And all together:
+
+!{{ site.url }}/photos/bikecollision.jpg(Pauli's Exclusion Principle)!
+
+!{{ site.url }}/photos/bikecrash.jpg(Crash)!
+
