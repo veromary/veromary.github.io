@@ -1,0 +1,566 @@
+---
+layout: default
+---
+<p><strong>
+Nota Bene:  OpusTeX is unmaintained.  This page remains in case it helps,
+but you are Strongly Recommended to use <a
+href="http://home.gna.org/gregorio">Gregorio</a> instead.
+</strong>
+</p>
+
+<h2>Installation and use of OpusTeX</h2>
+
+<a href="opustex.html#win">Installing TeX for Windows</a><br>
+<a href="opustex.html#opus1">Installing OpusTeX for Windows</a><br>
+<a href="opustex.html#testo">Testing OpusTeX</a><br>
+<a href="opustex.html#using">Using OpusTeX</a><br>
+<a href="opustex.html#fonts">Installing Fonts</a>
+
+<h3>For Debian GNU/Linux</h3>
+
+Select opustex from your local non-free package repository.
+You might want to update from version 0.84 to 0.93.
+The author, Andreas Egler, is unwilling to release
+0.93 widely, as it is very much a beta testing version,
+but the gregorian chant part is the best program I've
+seen for the chant.
+
+<p>
+
+I've heard that TeXShell is available for Linux, but
+I still use Emacs.  If you're using Debian you can probably
+handle the command line interface.  TeX practically 
+comes as standard, so much of my instructions are
+redundant there.  Skip straight to <a href="opustex.html#testo">Testing
+OpusTeX</a>.
+
+<a name="win">
+<h3>For Windows</h3>
+</a>
+
+You will need:
+<a href="http://www.miktex.org">MikTeX</a> or ProTeXt
+which are versions of TeX for windows,
+available on CD and the 
+<a href="http://www.muri-gries.ch/OpusTeX/OpusTeX.html">opustex</a>
+libraries to make TeX do music.
+
+<p>
+
+In addition I recommend
+<a href="http://www.projectory.de/texshell">TeXShell</a>
+a useful little text editor which can be used instead
+of Notepad and the DOS prompt.
+I'll just put the instructions for using TeXShell
+at the moment.  
+
+<p>
+
+First you install MikTex.  The defaults
+are very wise, so if in doubt, leave them as they are.
+
+<p>
+
+Once the TeX wizard is finished you'll need a way to test
+the system.  This will be much easier with the help of a little
+program called TeXShell.  Make a folder for it under Program Files
+and call it Texshell.  Move the file WinTeXShell32.zip from the
+cdrom into this new directory and unzip it.  Make a shortcut 
+for TeXShell.exe for your Start Menu and its done.
+
+<p>
+
+Open TeXShell and first of all start customizing it.  Click
+on Options from the menu bar and select Program Calls.  
+Replace 'latex --src-specials %F.tex'
+with just 'tex %F.tex'.  Click OK and now its ready to run.
+
+<p>
+
+Start a new file (File -> New) and type in a few words.
+Keep paragraphs separated by a blank line, 
+and avoid special characters like &, $, %.  
+You can learn about what to do about them later.  
+Finish your file with:
+
+<pre>
+
+\end
+
+</pre>
+
+Save your new tex file.
+Now click the TeX button.  You should catch a glimpse of the
+DOS Prompt before disappears.  Now click Preview.
+Hopefully you can see your work looking a little more printable.
+
+<p>
+
+One thing to try if something doesn't work is rebooting
+the computer.
+
+<a name="opus1">
+<h4>Installing OpusTeX</h4>
+</a>
+
+Installing opustex is not as scary as I make it sound.  
+You'll have a directory called c:/localtexmf.  
+You'll need to make a few subdirectories for it.  
+First of all make two new directories in localtexmf: 
+fonts and tex.  So now you have c:/localtexmf/fonts and 
+c:/localtexmf/tex.  Now inside fonts make two more directories: 
+tfm and source.  So now you have c:/localtexmf/fonts/source and 
+c:/localtexmf/fonts/tfm.  Now make an opustex directory in each 
+of c:/localtexmf/tex, c:/localtexmf/fonts/source, c:/localtexmf/fonts/tfm.
+
+<p>
+
+Unzip the opustex zip file, either opus084.zip or opus093.zip. 
+ Copy all the .tfm files to c:/localtexmf/fonts/tfm/opustex.  
+ Copy all the .mf files to c:/localtexmf/fonts/source/opustex.  
+ Copy all the .tex and .sty files to c:/localtexmf/tex/opustex.
+
+<p>
+
+If you have opusflex.exe, copy it to c:/texmf/miktex/bin.  If you only have opusflex.c you'll need to compile it or find someone like me who has opusflex.exe already.
+
+<p>
+
+Now, go to Start -> Programs -> Miktex -> Miktex Options and click the refresh button.
+
+<p>
+
+Now it's time to customise TeXShell again.  You'll
+need to edit c:\Program Files\TeXShell\TeXShell.ini.
+You can use TeXShell itself to do this, or Notepad.
+Scroll down to where it says:
+
+<pre>
+[Buttons]
+</pre>
+
+and to the end of that paragraph add:
+<pre>
+Opusflex=$Opusflex Main File$opusflex "%F.tex"
+CleanUp=$Remove Opusflex's Temp Files$cleanoxen
+
+[External Programs]
+Opusflex=opusflex %F.tex
+CleanUp=cleanoxen
+</pre>
+
+The cleanoxen is a work around for a little oddity
+of OpusTeX.  In the normal course of processing your music
+OpusTeX makes some auxiliary files that need to be deleted
+manually if you change the music.  For some reason
+putting CleanUp=del *.ox* doesn't work so I made a new file
+called cleanoxen.bat containing:
+
+<pre>
+
+del *.ox*
+
+</pre>
+
+and moved cleanoxen.bat to c:\texmf\miktex\bin.
+Which is what you should do to.
+
+<p>
+
+Restart TeXShell if need be and start another new file.
+
+<a name="testo">
+<h4>Testing OpusTeX</h4>
+</a>
+
+Now, start TeXShell again.  Type in the following:
+
+<pre>
+
+\input opustex
+\input opusgre
+
+\setgregorian1
+\initiumgregorianum
+\sgn Con\punctum a\egn
+\sgn {gr}at\punctum b\egn
+\sgn {}ul\punctum a\egn
+\sgn {}at\pes Na\egn
+\sgn io{ns!}\punctum a\augmentum b\egn
+\Finisgregoriana
+
+\end
+
+</pre>
+
+and save.
+
+<p>
+
+Processing music is just a little more complicated than text,
+so this time you need to click TeX, then Opusflex, and then
+TeX again.  Cross you fingers and click Preview to see the result.
+
+<p>
+
+For future changes to the music you need to clean up the temporary
+files that opusflex leaves behind.  To do this press the CleanUp button
+then go through the usual process of TeX, Opusflex, TeX, Preview.
+
+<a name="using">
+<h2>Using Opustex</h2>
+</a>
+
+<a href="opustex.html#outline">An Outline</a><br>
+<a href="opustex.html#preamble">The Preamble</a><br>
+<a href="opustex.html#barlines">Barlines</a><br>
+<a href="opustex.html#newlines">New Lines</a>
+<a href="opustex.html#english">Adding a translation</a>
+<a href="opustex.html#latex">Compatability with LaTeX</a>
+
+<a name="outline">
+<h3>An Outline</h3>
+</a>
+
+The documentation for OpusTeX is somewhat lacking.
+Here I'll try to give you a brief outline of how I use it.
+
+<p>
+
+Let's go through the test file and change it a little.
+
+<p>
+
+The first two lines call the opustex libraries.
+
+<pre>
+
+\input opustex
+\input opusgre
+
+</pre>
+
+These lines should go at the beginning of your
+gregorian chant file.
+
+<p>
+
+The next part I'll call the <a href="opustex.html#preamble">preamble</a>.  
+\setgregorian1
+tells TeX that the first staff of this piece is 
+in gregorian chant.  It calls in all the default settings,
+and puts the c-clef sign on the third line up.
+
+<p>
+
+All the lines between \initiumgregorianum and
+\Finisgregoriana I'll call the body of the piece.
+Each line starts with \sgn and ends with \egn, 
+(Start Gregorian Note and End Gregorian Note respectively).
+In between come two parts, the words and the music.
+The word part contains the syllable in three parts.
+
+<pre>
+
+\sgn {first part}{middle part}{last part}\punctum a\egn
+
+</pre>
+
+<p>
+
+OpusTeX lines up each syllable carefully with the respective neume.
+The vowel of the syllable is the middle part of the syllable
+and OpusTeX will line this up under the neume.
+Consonants before and after the vowel go in the
+first part and last part respectively.
+
+<p>
+
+If any one of these parts consists of exactly one letter or punctuation mark, no curly braces,
+{} are needed.  For example:
+
+<pre>
+
+\sgn Con\punctum a\egn
+
+</pre>
+
+If one of these parts contains no letter, then {}
+takes the place.
+
+<pre>
+
+\sgn {}ul\punctum a\egn
+
+</pre>
+
+  If a part contains several letters or punctuation marks
+then the curly braces groups the part together.
+
+<pre>
+
+\sgn io{ns!}\punctum a\augmentum b\egn
+
+</pre>
+
+<p>
+
+So now you have an idea about how opustex works.  I could
+go on and on from here, and maybe one day I will.
+For now I'll leave you with my guide to all the neumes
+available in my 
+<a href="scriptorium/quickref.pdf">Quick Reference Guide</a>.
+
+<a name="preamble">
+<h3>The Preamble</h3>
+</a>
+
+I told I'd go on, so here's the next installment:
+
+<p>
+
+I mentioned the preamble before, it comes between \setgregorian1
+and \initiumgregorianum.  Let's modify the example we had before
+to illustrate.
+
+<p>
+
+<pre>
+
+\input opustex
+\input opusgre
+
+\setgregorian1
+\raisesong3\Internote
+\musicindent12mm
+\nosolesmescustos
+\setclef14
+\initiumgregorianum
+\sgn Con\punctum a\egn
+\sgn {gr}at\punctum b\egn
+\sgn {}ul\punctum a\egn
+\sgn {}at\pes Na\egn
+\sgn io{ns!}\punctum a\augmentum b\egn
+\Finisgregoriana
+
+\end
+
+</pre>
+
+Let's go through the additions one at a time.
+<b> \raisesong3\Internote  </b> changes the vertical
+postition of the lyrics.  \Internote is a unit of measure
+of the height of one notehead.  The default raisesong value
+is more suited to modern music, so you need this command
+for any chant you do.
+
+<p>
+
+<b> \musicindent12mm </b> indents the music by 12mm.  This
+makes room for a big drop cap.  Unfortunately I don't know
+how to make the indent affect more than one line as you see in
+the Monastic Antiphonale.
+
+<p>
+
+<b>\nosolesmescustos</b> changes the style of the custoses.
+A custos is a little courtesy note at the end of a line which
+tells you what note is coming next.  Our example isn't long enough yet
+to see the effect of this, suffice to say that the monks of Solesmes
+have a one way of doing custoses, which is the default, while
+there is a simpler way, which \nosolesmescustos activates
+
+<p>
+
+<b>\setclef14</b> moves the C-clef to the top line of the staff.
+\setclef11 puts the C-clef on the bottom line, \setclef12, the
+next line up, \setclef13 the third line up.  If you need a F-clef
+then change this to:
+
+<pre>
+
+\setclefsymbol1\gregorianFclef
+\setclef15
+
+</pre>
+
+which puts the F-clef at the third line up, \setclef16 puts
+the F-clef on the top line.
+
+<p>
+
+And that finishes all I can think about the preamble off the top of
+my head on a humid Wednesday afternoon in the Blue Mountains.
+
+<a name="barlines">
+<h3>Barlines</h3>
+</a>
+
+I think one major omission in my quickref.pdf is an explanation of
+barlines.  Basically you have four types:
+
+<ol>
+<li>\divisiominima - a small vertical dash cutting the top line</li>
+<li>\divisiominor - a longer dash not quite reaching the top and bottom lines</li>
+<li>\divisiomaior - a single bar line</li>
+<li>\divisiofinalis - a double bar line</li>
+</ol>
+
+There's also a \virgula, which is like an apostrophe.
+
+<p>
+
+When ending a piece you don't need to use the above commands to choose
+your barline.  Instead you use the appropriate finis command:
+
+<ol>
+<li>\finisgregoriana - ends with a single bar line</li>
+<li>\Finisgregoriana - ends with a double bar line</li>
+<li>\finisaequalis - ends with a single bar line and the notes are spread out to fill the line</li>
+<li>\Finisaequalis - ends the piece with a double bar line and the notes spread out evenly along the line</li>
+</ol>
+
+<h3>New Lines</h3>
+
+New lines are not done automatically in OpusTeX.  You need to mark the place
+with a \lineaproxima (`next line').  
+You'll probably like to insert a custos too.  
+New lines should not come just before bar lines, or OpusTeX will complain.
+Here's an example:
+
+<pre>
+
+\hsize50mm
+
+\setgregorian1
+\setclef14
+\raisesong3\Internote
+\initiumgregorianum
+\sgn Le{ts}\pes Na\egn
+\spatium
+\sgn see\punctum c\egn
+\spatium
+\sgn {}if\punctum c\egn
+\spatium
+\sgn {th}is\punctum c\egn
+\spatium
+\sgn wo{rks,}\climacus cba\egn
+\spatium
+\divisiominima
+\spatium
+\custos L\lineaproxima
+\sgn be-\torculus LNL\egn
+\sgn ca{use}\porrectus NMN\egn
+\spatium
+\sgn {}it\pes Na\egn
+\spatium
+\sgn {sh}{ou}{ld.}\punctum c\augmentum d\egn
+\spatium
+\Finisgregoriana
+
+</pre>
+
+<a name="english">
+<h3>Adding a Translation</h3>
+</a>
+
+So far my examples have been in English, which is not at all like real
+gregorian chant.  One of the main hurdles to getting people to use the
+chant is the perception that they don't know Latin, so they don't know
+what they're singing.  That's what I was like when I started attending
+the Latin Mass.  I wanted to know what the choir was singing, what the
+priest was saying all at the same time.
+
+<p>
+
+Anyway, OpusTeX doesn't have a native function for adding an extra
+line of text under the music so you have to write it yourself.
+I use this definition at the beginning of each piece:
+
+<pre>
+\font\itlyrics cmti9
+\def\engl#1{\cchar{-7}{\itlyrics #1}}
+</pre>
+
+The first line defines a 9 point italic font and calls it \itlyrics.  
+The second line defines a command that takes some text and places it
+under the music in the \itlyrics font.  \cchar is
+another opustex command that makes the text centered,
+using \rchar instead would have made it right aligned and \lchar
+would have made it left aligned.  {-7} specifies the vertical position
+of the text.  For extra lines I use -10 and -13.
+
+<p>
+
+The \engl command is used in amongst the notes 
+(\punctums and so on) like this:
+
+<pre>
+
+\sgn lux\engl{light}\punctum c\egn
+
+</pre>
+
+You might need a bit of tweaking to get things looking right.  Use 
+some of TeX's spacing commands:
+
+<ul>
+<li>~ makes a non-breaking space</li>
+<li>\ (slash, space) makes a normal space</li>
+<li>\quad makes a quad space (about an em's width)</li>
+</ul>
+
+<a name="latex">
+<h3>Compatibility with LaTeX</h3>
+
+OpusTeX is surprisingly compatible with LaTeX.  
+I've just finished a 160 page book of hymns and masses 
+for a <a href="http://www.crex.org">pilgrimage</a>.  
+Here are some of the lessons I've learnt:
+
+<p>
+
+First of all, don't worry about the music environment.  
+The manual kind of suggests enclosing your music in \begin{music} \end{music} commands, 
+but I found this caused a dislocation of the drop caps in the music similar to the repeated use of \begingroup \endgroup in TeX.  
+The first few examples were fine, but after that things started going funny.
+
+<p>
+
+If you do have trouble with OpusTeX in LaTeX you can make TeX files, use dvips to make them into postscript files then either ghostview's export to eps feature or ghostscript (gs -sDEVICE=epswrite -sOutputFile=filename.eps filename.ps) to make eps files.  Once you have eps files then use the graphicx package to include them.  There's a good guide called Using Imported Graphics in LaTeX2e (epslatex.pdf) available from CTAN on how to do this.
+</p>
+<p>
+
+The great advantage of using LaTeX seems to be the graphicx package.  
+This gives you lots of options when including pictures like  cropping
+pictures, resizing and so on.
+You can even include
+jpegs.
+</p>
+<a name="fonts">
+<h3>Installing Fonts</h3></a>
+
+<p>This is not meant to be an exhaustive treatment of how to install fonts for TeX, but since I need somewhere to write down the basics, here it is.</p>
+
+<p>To install postscript fonts:
+<ol>
+<li>Make new directories under /usr/share/texmf/fonts/type1 and 
+usr/share/texmf/fonts/tfm</li>
+<li>Copy .pfb and .tfm files into the appropriate folders</li>
+<li>Add a new .map file to /etc/texmf/dvips/ and add a reference to it in one of the files in /etc/texmf/updmap.d</li>
+<li>As root run update-updmap then updmap</li>
+<li>Try using the font.</li></ol></p>
+
+<p>This is what I do on my Debian (3.1 Sarge) installation of TeTeX.  Just to make life interesting
+it is probably different on your computer.</p>
+
+
+</div>
+
+<p></p>
+
+<br>
+
+<p></p>
+
+

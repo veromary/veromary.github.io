@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sheet Music Collection
+permalink: music/
 ---
 
 <h1>Sheet Music Collection</h1>

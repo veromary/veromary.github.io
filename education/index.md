@@ -1,17 +1,17 @@
 ---
 layout: default
 title: Education
+permalink: education/
 ---
 
 #Education
 
 ##Recent posts
 
-{% for post in site.posts %}
-{% if post.category contains 'Education' %}
-* {{ post.date | date_to_string }} [{{ post.title }}]({{ site.url }}{{ post.url }})
-{% endif %}
-{% endfor %}
+<ul>
+{% for post in site.posts %}{% if post.category contains 'Education' %}
+<li>{{ post.date | date_to_string }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
+</ul>
 
 ##Things we are currently studying
 <ul>

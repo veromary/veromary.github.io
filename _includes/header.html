@@ -8,9 +8,6 @@
                      <a href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
                  </li> 
                  {% endfor %}
-{% for category in site.categories %}
-<li style="text-transform: capitalize"> <a href="{{ site.url }}/{{ category | first | slugize }}">{{ category | first }}</a></li>
-{% endfor %}
              </ul>
          </nav>
      </div>

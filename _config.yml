@@ -13,12 +13,18 @@ highlighter: pygments
 paginate: 5
 
 navigation:
- - title: Home
-   url: /index.html
  - title: About
    url: /about
  - title: Contact
    url: /contact
+ - title: Music
+   url: /music
+ - title: Education
+   url: /education
+ - title: Drawings
+   url: http://www.peterbrandt.com.au
+ - title: Photos
+   url: /photos
 
 social:
    github: veromary

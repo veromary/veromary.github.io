@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Photos
+permalink: photos/
 ---
 
 <h1>Photos</h1>

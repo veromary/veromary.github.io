@@ -1,0 +1,119 @@
+\begin{theindex}
+
+  \item Adoremus in \ae ternum, 42
+  \item All glory, laud and honour, 7
+  \item Ave Maria -- a round, 23
+  \item Ave maris stella, 32
+  \item Ave verum, 35
+
+  \indexspace
+
+  \item Battle is o'er, 34
+  \item Blessing of the pilgrims' staves and scrips (or bags), ii
+  \item By the Cross her vigil keeping, 12
+
+  \indexspace
+
+  \item Christ conquers, 24
+  \item Christus vincit, 24
+  \item Come, Holy Ghost, Creator, come , 16
+  \item Crux fidelis, 30
+
+  \indexspace
+
+  \item Dona nobis pacem, 29
+  \item Down in adoration falling, 40
+
+  \indexspace
+
+  \item Fairest Lord Jesus, 27
+  \item Firmly I believe, 4
+
+  \indexspace
+
+  \item Gaudete, gaudete, 33
+  \item Gloria, laus, 6
+  \item Glory be to Jesus, 22
+  \item Grant unto us peace, 29
+
+  \indexspace
+
+  \item Hail Queen of heaven, 34
+  \item Hail Redeemer, 23
+  \item Hail true Body, 35
+  \item Hail, holy Queen, 38
+  \item Help of Christians, 23
+  \item Holy Spirit, Lord of light, 14
+
+  \indexspace
+
+  \item I vow to thee, my country, 17
+
+  \indexspace
+
+  \item Jerusalem, my happy home, 20
+  \item Jesu corona Virginum, 5
+  \item Jesus, my Lord, 19
+  \item Jubilate Deo -- a round, 7
+
+  \indexspace
+
+  \item Laudate nomen Domini -- a round, 27
+  \item Laudemus virginem -- a round, 4
+  \item Let us adore forever, 42
+  \item Let us praise the virgin, 4
+  \item Litany of Loreto, 10
+
+  \indexspace
+
+  \item Non nobis, Domine, 22
+  \item Not unto us, Lord, 22
+
+  \indexspace
+
+  \item O filii et fili\ae , 18
+  \item O salutaris hostia, 39
+  \item O saving Victim, op'ning wide, 39
+  \item O sons and daughters, let us sing, 18
+
+  \indexspace
+
+  \item P\'anis ang\'elicus, 37
+  \item Praise the name of the Lord, 27
+
+  \indexspace
+
+  \item Rejoice in God, all the earth, 7
+  \item Rejoice, rejoice, Christ is born, 33
+
+  \indexspace
+
+  \item Sacris solemniis, 36
+  \item Salve Regina, 38
+  \item Stabat Mater dolorosa, 12
+  \item Star of ocean, lead us, 32
+  \item Stella splendens, 8
+  \item Sub tuum pr\ae sidium, 37
+
+  \indexspace
+
+  \item Tantum ergo Sacramentum, 40
+  \item The bread of angels, 37
+  \item Thou Crown of all the Virgin choir, 5
+  \item To be a pilgrim, 15
+  \item To Jesus' Heart, 35
+  \item To the sacred feast, 36
+
+  \indexspace
+
+  \item Veni Creator Spiritus, 16
+  \item Veni Sancte Spiritus, 14
+  \item Vexilla Regis prodeunt, 28
+  \item Virgin Mother of God, 17
+  \item Virgo Dei Genitrix, 17
+
+  \indexspace
+
+  \item Who would true valour see, 15
+
+\end{theindex}

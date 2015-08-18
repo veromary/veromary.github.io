@@ -34,4 +34,4 @@ Right now, each day I find a short passage, either from Fr Foster's course, the 
 
 Latin washes over us on a daily basis, thanks to our daily prayers: the Rosary, Prime from the Little Office of the Blessed Virgin Mary and Roman Compline.  Each week we have the Latin of the Mass.  If we just keep our eyes and ears open and think, then there will be manifold opportunities for growing in understanding.
 
-<strong>UPDATE:</strong> <a href="http://www.latinum.co.uk">latinum.co.uk</a> is an unassuming page stuffed full of pedagogical Latin resources plus some handwriting and other languages.  
+<strong>UPDATE:</strong> <a href="http://www.latinum.org.uk">latinum.org.uk</a> is an unassuming page stuffed full of pedagogical Latin resources plus some handwriting and other languages.  
