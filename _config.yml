@@ -7,7 +7,7 @@ description: A family workroom
 url: http://www.brandt.id.au
 baseurl: ""
 paginate_path: "blog/page:num/"
-permalink: date
+permalink: /:year/:month/:day/:title.html
 
 markdown: redcarpet
 highlighter: pygments
