@@ -11,7 +11,7 @@ tags: handwriting
 
 There are several [handwriting fonts](http://www.tug.dk/FontCatalogue/calligraphicalfonts.html) already designed in METAFONT - the native font engine for TeX and family.  Most of these are German, one Austrian, one French - that's just the ones I know of.
 
-[handwriting-samples]({{ site.url }}/pdf/handwriting-samples.pdf)
+[handwriting-samples]({{ site.url }}/assets/pdf/handwriting-samples.pdf)
 
 So there you have Lateinische Ausgangsschrift, French Cursive, Vereinfachten Ausgangsschrift, Österreichische Scholschrift and TW Cal 14.  Makes a change from all the US based handwriting worksheet generators which provide variations on Zaner-Bloser, D'Nealian and Getty Dubay.  It's still a far cry from the Australian Foundation Handwriting that I grew up with (italic, but taller ascenders and descenders than Getty).  
 

@@ -4,16 +4,15 @@ title: Sheet Music Collection
 permalink: music/
 ---
 
-<h1>Sheet Music Collection</h1>
+#Sheet Music Collection
 
-<p>
-<a href="{{ site.url }}/music/hymnbook/"><img src="{{ site.url }}/music/hymnbook/angel.jpg" align="right" style="margin: 0 0 3px 3px" /></a>Music both inspires us and drives us crazy.</p>
+<a href="{{ site.url }}/music/hymnbook/"><img src="{{ site.url }}/music/hymnbook/angel.jpg" align="right" style="margin: 0 0 3px 3px" /></a>Music both inspires us and drives us crazy.
 
-<p>In 2013 I started blogging over at <a href="http://www.ccwatershed.org">Corpus Christi Watershed</a>.  This has helped me see that music is important to me.  It has also brought home how many unfinished projects I have lying around the interwebs!</p>
+In 2013 I started blogging over at [Corpus Christi Watershed](http://www.ccwatershed.org).  This has helped me see that music is important to me.  It has also brought home how many unfinished projects I have lying around the interwebs!
 
-<p>So, I will try to tie things together here.  Things like my version of the <a href="http://www.ccwatershed.org/blog/2014/sep/6/richard-terrys-hymnal/">Old Westminster Hymnal</a></p>
+So, I will try to tie things together here.  Things like my version of the <a href="http://www.ccwatershed.org/blog/2014/sep/6/richard-terrys-hymnal/">Old Westminster Hymnal</a>
 
-<p>Also, <a href="stmary.html">The Hymn to St Mary of the Cross.</a> A short hymn in Long Meter (88.88).</p>
+Also, [The Hymn to St Mary of the Cross.]({% post_url 2011-07-21-hymn-st-mary %}) A short hymn in Long Meter (88.88).
 
 <p>The two main projects here at brandt Lab:</p>
 <ul>

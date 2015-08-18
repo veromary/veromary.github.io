@@ -1,0 +1,53 @@
+---
+layout: default
+title: Archives
+---
+
+<h1>Site index</h1>
+
+<p>
+This web site began in 2001 when it seemed like a good idea at the time.
+Pages have accumulated as interests came and went.  Here is a list to
+try to make some order out of the collection.
+</p>
+
+<ol>
+<li>Veronica's <a href="music/index.html">Sheet Music Collection</a>
+<ul><li><a href="music/hymnbook/index.html">A New Book of Old Hymns</a></li>
+<li><a href="music/epiphany.html">Solemn Proclamation of Moveable Feasts</a></li>
+<li><a href="scriptorium/index.html">Old Gregorian Chant Page</a></li>
+<li><a href="opustex.html"> Opustex </a> installation and usage.</li>
+</ul></li>
+<li><a href="mini.html">Peter's Minis</a> - </li>
+<li><a href="photos/index.html">Family photos</a></li>
+<li><a href="homeschool.html">Home Education</a> 
+and <a href="teaching.html">Teaching</a> resources, ideas,
+recommended reading and things like that. Lots of book reviews.
+</li>
+   <li><a href="garb.html">Brandt Family Garb Guide</a></li>
+<li><a href="thurible.html">Crochet a Thurible</a> -- a safety
+thurible for the aspiring thurifer.</li>
+<li><a href="pastores.html">Knit some shepherds</a> inspired by
+Jean Greenhowe's cute dolls.</li>
+<li> <a href="opustex.html"> Opustex </a> installation and usage. </li>
+
+<li><a href="mastitis.html">Mastitis and all that</a> my inexpert advice on
+mastitis and its complications.</li>
+
+<li><a href="fabiola/index.html">Fabiola</a> - the first few chapters online.
+Also available as  <a href="fabiola/fabiolahtml.zip">fabiolahtml.zip</a>.
+</li>
+
+</ol>
+
+ <h1>Blog Posts</h1>
+<p>
+In April 2012 the brandt Lab went all Wordpress-y.  Now, October 2013, I'm having a go at migrating those posts back over into a Jekyll-y static site.  The mastitis post above is still the most popular article, followed by  how to use hotpotatoes in Wordpress. It still seems a bit odd to convert that one over to static.
+</p>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a> </li>
+    {% endfor %}
+  </ul>
+
+  
