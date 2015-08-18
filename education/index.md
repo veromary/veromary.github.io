@@ -9,8 +9,8 @@ permalink: education/
 ##Recent posts
 
 <ul>
-{% for post in site.posts %}{% if post.category contains 'Education' %}
-<li>{{ post.date | date_to_string }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endif %}{% endfor %}
+{% for post in site.categories.education %}
+<li>{{ post.date | date_to_string }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
 </ul>
 
 ##Things we are currently studying

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Moving Wagga-wards
+category: House
 ---
 
 We feel the need for more room, both inside and outside the house.

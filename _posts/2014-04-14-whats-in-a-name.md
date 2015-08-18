@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What's in a name?
+category: Computers
 ---
 
 ![Crochet madness]({{ site.url }}/images/crochet.jpg){:.align-right}

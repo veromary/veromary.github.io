@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Epiphany Proclamation 2015
+category: Music
 ---
 It's up and ready at [Music > Epiphany Proclamation]({{ site.url }}/music/epiphany.html)
 

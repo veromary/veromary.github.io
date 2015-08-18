@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>{{ page.course-title }}</h1>
+<h2>{{ page.title }}</h2>
+
+<p> {% if  page.prevex %} <a href="{{ site.url }}/latin/{{ page.prevex }}.html">&lt; Previous Lesson</a> | {% endif %} 
+<a href="{{ site.url }}/latin/{{ page.course }}.html">back to {{ page.course-title }}</a> 
+{% if page.nextex %} | <a href="{{ site.url }}/latin/{{ page.nextex }}.html">Next Lesson &gt; </a>{% endif %}</p>
+
+{{ content }}
+
+
