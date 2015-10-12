@@ -1,6 +1,7 @@
 ---
 title: Matching up Psalms
 layout: posts
+category: Education
 ---
 
 When we sing the Little Office of the Blessed Virgin Mary in Latin I often wonder how much my children understand.
