@@ -15,6 +15,7 @@ Vocabulary for choir and congregation.
  * Sanctus
  * Agnus Dei
  * [Exercise 1]({{ site.url }}/latin/massex1.html)
+ * [Exercise 2]({{ site.url }}/latin/massex2.html)
 
 [back to Catholic's Latin Instructor]({{ site.url }}/latin/)
 

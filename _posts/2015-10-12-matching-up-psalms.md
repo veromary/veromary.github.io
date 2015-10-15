@@ -1,6 +1,6 @@
 ---
 title: Matching up Psalms
-layout: posts
+layout: post
 category: Education
 ---
 
