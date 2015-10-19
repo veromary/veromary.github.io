@@ -3,7 +3,7 @@ author: Veronica Brandt
 title: Brandt Lab
 description: A family workroom
 
-#url: http://localhost:4000
+#url: http://hope.local:4000
 url: http://www.brandt.id.au
 baseurl: ""
 paginate_path: "blog/page:num/"
