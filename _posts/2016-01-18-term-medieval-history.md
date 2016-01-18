@@ -13,7 +13,7 @@ As it is a favourite time period, I have at hand quite a few works of historical
 Here is the list:
 
 * 480-547 [The Life of St Benedict](http://www.gutenberg.org/ebooks/16667) written by St Gregory the Great.  Also [in Latin](http://monumenta.ch/latein/verzeichnis4_noframes.php?tabelle=Gregorius_Magnus&xy=Gregorius%20Magnus,%20Dialogi,%202&level=4) and [here](https://la.wikisource.org/wiki/Gregorius_Magnus,_Dialogi_liber_II)
-* 484-577 Brendan the Navigator - I had watched a documentary of a [re-enactment of the voyage](http://curragh.sakura.ne.jp/eng/brendanvoyage-eng.html) - The text that they referred to: [The Voyage of St Brendan the Abbot](http://markjberry.blogs.com/StBrendan.pdf) and the [latin](http://www.hs-augsburg.de/~harsch/Chronologia/Lspost10/Brendanus/bre_navi.html)
+* 484-577 Brendan the Navigator - Tim Severin made a [re-enactment of the voyage](http://curragh.sakura.ne.jp/eng/brendanvoyage-eng.html) and there's a [video here](https://vimeo.com/40225298) - The text that they referred to: [The Voyage of St Brendan the Abbot](http://markjberry.blogs.com/StBrendan.pdf) and the [latin](http://www.hs-augsburg.de/~harsch/Chronologia/Lspost10/Brendanus/bre_navi.html)
 * 520ish-604 [Augustine came to Kent](https://www.bethlehembooks.com/augustine-came-kent-e-731) by Barbara Willard
 * Written 750-ish, set in 400s [Beowulf](https://www.gutenberg.org/files/16328/16328-h/16328-h.htm)
 * 849-899 [Alfred of Wessex](https://www.bethlehembooks.com/alfred-wessex-e-567) by Frank Morriss and GKC's [Ballad of the White Horse](http://www.gutenberg.org/files/1719/1719-h/1719-h.htm)
