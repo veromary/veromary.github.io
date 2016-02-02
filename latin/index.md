@@ -59,6 +59,6 @@ Table of Contents:
 Some random pages of handwriting practice using the free fonts Jarman and [Briem](http://briem.net)
 
   + [Beatitudes pdf]({{ site.url }}/latin/bible/beatitudes.pdf) (and [editable odt]({{ site.url }}/latin/bible/beatitudes.odt))
-  + [First 3 Commandments pdf][{{ site.url }}/latin/bible/xcommandments123.pdf) (and editable odt]({{ site.url }}/latin/bible/xcommandments123.odt))
+  + [First 3 Commandments pdf]({{ site.url }}/latin/bible/xcommandments123.pdf) (and [editable odt]({{ site.url }}/latin/bible/xcommandments123.odt))
 
 
