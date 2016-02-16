@@ -9,8 +9,6 @@ baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: /:year/:month/:day/:title.html
 
-markdown: redcarpet
-highlighter: rouge
 paginate: 5
 
 navigation:
