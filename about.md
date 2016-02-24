@@ -4,7 +4,7 @@ title: About Brandt Lab
 permalink: about/
 ---
 
-#About Brandt Lab
+# About Brandt Lab
 
 This somewhat aimless website seemed like a good idea way back when "id.au" domains were new.
 
@@ -16,4 +16,4 @@ Now and then I group posts by Categories, like these:
 {% for category in site.categories %}<li style="text-transform: capitalize"> <a href="{{ site.url }}/{{ category | first | slugize }}">{{ category | first }}</a></li>{% endfor %}
 </ul>
 
-</div>
+
