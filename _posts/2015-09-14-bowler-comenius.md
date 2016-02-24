@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bowler and Comenius
+category: Education
 ---
 
 It's the last week of Term 3 and I've come up with a thing.
