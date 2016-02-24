@@ -4,7 +4,7 @@ title: Computers
 permalink: computers/
 ---
 
-#Computers
+# Computers
 
 <ul>
 {% for post in site.categories.Computers %}

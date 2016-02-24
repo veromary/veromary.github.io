@@ -4,7 +4,7 @@ title: Food
 permalink: food/
 ---
 
-#Food
+# Food
 
 <ul>
 {% for post in site.categories.Food %}
