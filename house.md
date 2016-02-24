@@ -12,7 +12,7 @@ But it might just be the category to help get the house painted and generally fi
 ## Recent posts
 
 <ul>
-{% for post in site.categories.house %}
+{% for post in site.categories.House %}
 <li>{{ post.date | date_to_string }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
 </ul>
 
