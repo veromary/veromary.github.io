@@ -4,16 +4,16 @@ title: Education
 permalink: education/
 ---
 
-#Education
+# Education
 
-##Recent posts
+## Recent posts
 
 <ul>
-{% for post in site.categories.education %}
+{% for post in site.categories.Education %}
 <li>{{ post.date | date_to_string }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>{% endfor %}
 </ul>
 
-##Things we are currently studying
+## Things we are currently studying
 <ul>
 <li><a href="http://www.classicalliberalarts.com/family/index.cfm">Classical Liberal Arts Academy</a> for Catechism and Grammar. Our sub expires at the end of June 2015, and we do not plan to move into the new system, so we hope to have a good go at finishing some courses.  Wish us luck!</li>
 <li><a href="http://mathsonline.com.au/login">Maths Online</a> - A nice, clear, uncluttered Australian Maths program.</li>
@@ -25,7 +25,7 @@ permalink: education/
 </ul>
 
 
-##Ideas for homeschooling and general teaching/learning stuff
+## Ideas for homeschooling and general teaching/learning stuff
 
 [The Catholic's Latin Instructor]({{ site.url }}/latin/) - a project to turn Fr Edward Caswall's book into an online course.
 

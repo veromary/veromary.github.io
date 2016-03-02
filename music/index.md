@@ -4,7 +4,7 @@ title: Sheet Music Collection
 permalink: music/
 ---
 
-#Sheet Music Collection
+# Sheet Music Collection
 
 <a href="{{ site.url }}/music/hymnbook/"><img src="{{ site.url }}/music/hymnbook/angel.jpg" align="right" style="margin: 0 0 3px 3px" /></a>Music both inspires us and drives us crazy.
 
@@ -26,7 +26,7 @@ Also, [The Hymn to St Mary of the Cross.]({% post_url 2011-07-21-hymn-st-mary %}
 <p>Posts from the Music category (being generally more recent articles written in a blog post sort of way)</p>
 
 <ul>
-{% for post in site.categories.music %}
+{% for post in site.categories.Music %}
 <li>{{ post.date | date_to_string }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

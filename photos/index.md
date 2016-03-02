@@ -12,7 +12,7 @@ height="248">
 
 
 <ul>
-{% for post in site.categories.photos %}
+{% for post in site.categories.Photos %}
 <li>{{ post.date | date_to_string }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
