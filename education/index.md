@@ -29,6 +29,8 @@ permalink: education/
 
 [The Catholic's Latin Instructor]({{ site.url }}/latin/) - a project to turn Fr Edward Caswall's book into an online course.
 
+[Living the Truth by Rev C. P. Bowler S.M., M.A.]({{ site.url }}/truth/) - an excellent series of booklets roughly high school level for teaching the Catholic faith with a strong grounding in Thomistic philosophy.
+
 Here are two old pages:
 [Home Education]({{ site.url }}/homeschool.html) and [Teaching]({{ site.url }}/teaching.html) resources, ideas, recommended reading and things like that. Lots of book reviews.
 
