@@ -3,9 +3,11 @@ layout: default
 title: Benediction
 ---
 
-#Chapter 1
+Chapter 1
+=========
 
-##Benediction
+Benediction
+-----------
 
  * [Exercise 1]({{ site.url }}/latin/benedictionex1.html)
  * [Exercise 2]({{ site.url }}/latin/benedictionex2.html)
