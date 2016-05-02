@@ -27,6 +27,9 @@ Each week I'm endeavouring to make up a worksheet with Exercise A of each chapte
 * [ch24 The Incarnation](ch24exA.pdf) 
 * [ch25 Redemption](ch25exA.pdf)
 * [ch26 The Kingship of Christ](ch26exA.pdf)
+* [ch27 Our Blessed Lady](ch27exA.pdf)
+* [ch28 St Joseph](ch28exA.pdf)
+* ch29 Natural Habits [odt file for Open Office](ch29.odt)
 
 I'm not sure of the copyright of the booklets.  A teacher has scanned in and converted the entire series to word doc files, one for each chapter.  I will try see about permission to make that available here.
 
