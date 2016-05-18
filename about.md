@@ -1,10 +1,12 @@
 ---
-layout: default
+layout: media
+excerpt: Who we are
 title: About Brandt Lab
 permalink: about/
+image:
+   feature: family16.jpg
+   teaser: family16400x250.jpg
 ---
-
-# About Brandt Lab
 
 This somewhat aimless website seemed like a good idea way back when "id.au" domains were new.
 

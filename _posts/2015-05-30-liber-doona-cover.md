@@ -2,7 +2,9 @@
 layout: post
 title: Liber Doona Cover
 category: Music
-image: liberdoonacover.jpg
+image:
+   feature: liberdoonacover.jpg
+   teaser: liberdoona400x250.jpg
 ---
 
 A crazy idea while doing the washing up:

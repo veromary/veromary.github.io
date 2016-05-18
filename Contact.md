@@ -1,16 +1,18 @@
 ---
-layout: default
-title: Contact the Brandts
+layout: article
+title: Contact
 permalink: contact/
+date: 2016-05-18T09:27:02+10:00
+excerpt: Email
+ads: false
+share: false
 ---
 
-<div id="contact">
-  <h1 class="pageTitle">Contact Us</h1>
-  <div class="contactContent">
-    <p class="intro"><a href="http://veronica.brandt.id.au">Veronica</a> is the main admin person.  <a href="http://www.peterbrandt.com.au">Peter</a> is a bit more interesting.</p>
-<p>Or you can use this form to quickly write to us.</p>
-  </div>
-  <form action="http://formspree.io/veroicon@gmail.com" method="POST">
+<a href="http://veronica.brandt.id.au">Veronica</a> is the main admin person.  <a href="http://www.peterbrandt.com.au">Peter</a> is a bit more interesting.
+
+Or you can use this form to quickly write to us.
+  
+<form action="http://formspree.io/veroicon@gmail.com" method="POST">
     <label for="name">Name</label>    
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
@@ -21,4 +23,3 @@ permalink: contact/
 <input type="text" name="_gotcha" style="display:none" />
     <input type="submit" value="Send" class="button">
   </form>
-</div>

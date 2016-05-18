@@ -1,14 +1,17 @@
 ---
-layout: default
-title: Sheet Music Collection
-permalink: music/
+layout: article
+title: Music
+date: 2016-05-18T08:27:02+10:00
+modified:
+excerpt:
+image:
+  feature:
+  teaser:
+  thumb:
+ads: false
 ---
 
-# Sheet Music Collection
-
-<a href="{{ site.url }}/music/hymnbook/"><img src="{{ site.url }}/music/hymnbook/angel.jpg" align="right" style="margin: 0 0 3px 3px" /></a>Music both inspires us and drives us crazy.
-
-In 2013 I started blogging over at [Corpus Christi Watershed](http://www.ccwatershed.org).  This has helped me see that music is important to me.  It has also brought home how many unfinished projects I have lying around the interwebs!
+<a href="{{ site.url }}/music/hymnbook/"><img src="{{ site.url }}/music/hymnbook/angel.jpg" align="right" style="margin: 0 0 3px 3px" /></a>In 2013 I started blogging over at [Corpus Christi Watershed](http://www.ccwatershed.org).  This has helped me see that music is important to me.  It has also brought home how many unfinished projects I have lying around the interwebs!
 
 So, I will try to tie things together here.  Things like my version of the <a href="http://www.ccwatershed.org/blog/2014/sep/6/richard-terrys-hymnal/">Old Westminster Hymnal</a>
 
@@ -20,92 +23,14 @@ Also, [The Hymn to St Mary of the Cross.]({% post_url 2011-07-21-hymn-st-mary %}
 <li><a href="hymnbook/index.html">A New Book of Old Hymns</a></li>
 </ul>
 
+<div style="clear:both"></div>
 
-<h2>Local Blog Posts</h2>
+---
 
-<p>Posts from the Music category (being generally more recent articles written in a blog post sort of way)</p>
 
-<ul>
-{% for post in site.categories.Music %}
-<li>{{ post.date | date_to_string }} <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
- 
-<h3>Older pages here on brandt Lab:</h3>
+<div style="clear:both"></div>
 
-<ul>
-<li><a href="../scriptorium/index.html">The Old Gregorian Chant Page</a></li>
-<li><a href="../primer.html">The Pilgrim's Primer</a></li>
-<li>Pieces in transition:
-<ul><li><a href="index.html#jubilate">Jubilate Deo</a></li>
-<li><a href="index.html#rosary">Rosary in Latin</a></li>
-<li><a href="index.html#dead">Mass of the Dead</a></li>
-<li><a href="index.html#misc">Miscellaneous</a></li></ul></li></ul>
+{% for post in site.categories.Music %} {% include post-grid.html %} {% endfor %} 
 
-<p>More random quick posts on music, hymns, chant over at: 
-<a href="http://hymni.wordpress.com">hymni.wordpress.com</a>.
-</p>
-
-<p>Most of this is gregorian chant typest using OpusTeX.
-<a href="http://home.gna.org/gregorio">Gregorio</a>
-is developing into a fine alternative.
-OpusTeX is old, difficult to use, but its free and it works.
-Gregorio is new, easier to use, more completely free and
-it is under active development, so if you do come across a bug
-you can tell someone and get it fixed.  In about ten years time, 
-when my children are more grown up, I hope to use it a lot.
-</p>
-
-<p>
-Other programs I use for modern music notation are MusiXTeX,
-PMX and M-Tx.  These are featured in the 
-<a href="http://icking-music-archive.org">Werner Icking Music Archive</a>.  
-Recently I tried using 
-<a href="http://www.lilypond.org">Lilypond</a>.  I was pleasantly
-surprised by how much more sophisticated it is.  I've used it to
-type up some classical guitar music.  The Lilypond fonts are also
-a little more handsome than most.</p>
-
-<p>Those are all TeX based programs.  All require source files edited
-with a text editor (I used  to use Emacs, now using Vim).  Its an old fashioned way to
-prepare printable documents, but it works!</p>
-
-<a name="jubilate"><h2>Jubilate Deo</h2></a>
-
-<p>In 1974 Pope Paul VI issued a little booklet called Jubilate Deo.
-It gave a minimum repertoire of Gregorian Chant to be used
-throughout the world.  It keeps things really simple.</p>
-
-<p>Using the margin notes capabilities of LaTeX I've tried a 
-different way of laying out the page with the latin text in 
-the main section and english in the wide margins.  The pages are
-a4.  You can see the progress so far in <a href="jubilate.pdf">jubilate.pdf</a>
-and for the TeXnicians here is the source 
-<a href="jubilate.tar.gz">jubilate.tar.gz</a>.</p>
-
-<a name="rosary"><h2>Rosary in Latin</h2></a>
-
-<p>A little card for saying the rosary in latin.
-The chant for the Pater Noster and the Salve Regina is included.
-It doesn't have the English translations.
-Have a look at <a href="rosary.pdf">rosary.pdf</a> and for the
-TeXnicians <a href="rosary.tar.gz">rosary.tar.gz</a>.</p>
-
-<a name="dead"><h2>Mass of the Dead</h2></a>
-
-<p>A mass booklet for a funeral.  Needs some work, but its almost there.
-Chant for all the propers and ordinary done.  
-Also includes the parts of the Mass.  34 pages
-<a href="dead.pdf">dead.pdf</a> and <a href="dead.tar.gz">dead.tar.gz</a>
-</p>
-
-<a name="misc"><h2>Miscellaneous Pieces</h2></a>
-
-<p>I had an informal guitar/recorder/singing class that I arranged music for.
-The songs are usually very simple with diagrammed chords for the guitars.</p>
-
-<ul>
-<li>Silent Night: <a href="silent.pdf">silent.pdf</a> Two voices plus guitar chords with <a href="silent.mtx">MTx source</a></li>
-</ul>
-
+<div style="clear:both"></div>
 

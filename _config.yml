@@ -1,43 +1,51 @@
-name: Brandt Lab
-author: Veronica Brandt
+# Site wide configuration
+
 title: Brandt Lab
-description: A family workroom
+description: a family workroom
+logo: # 120x120 px default image used for Twitter summary card
+teaser: tealbyspa400x250.jpg # 400x250 px default teaser image used in image archive grid
+locale: en
+url:
 
-#url: http://localhost:4000
-url: http://www.brandt.id.au
-baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: /:year/:month/:day/:title.html
+# Jekyll configuration
 
-paginate: 5
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+kramdown:
+  toc_levels: 1..2
+highlighter: rouge
+gems:
+  - jekyll-sitemap
+  - jekyll-gist
 
-navigation:
- - title: About
-   url: /about
- - title: Contact
-   url: /contact
- - title: Articles
-   url: /articles
- - title: Music
-   url: /music
- - title: Education
-   url: /education
- - title: Drawings
-   url: http://www.peterbrandt.com.au
- - title: Photos
-   url: /photos
 
-social:
-   github: veromary
-   twitter: veromarybrrr
-   facebook: veromarybrrr
+# Octopress configuration
 
-google_analytics: "UA-39801667-1"
-email: veroicon@gmail.com
-DISQUS_SITENAME: brandtlab
+# Default extensions
+post_ext: md
+page_ext: md
 
-FEED_RSS: http://feeds.feedburner.com/brandtlab
+# Found in _templates/
+post_layout: article
+page_layout: article
 
-collections:
-  biblestudy:
-    output: true
+# Format titles with titlecase?
+titlecase: true
+
+
+# Site owner
+owner:
+  name: Veronica Brandt
+  email: veronica@brandt.id.au
+  twitter: veromarybrrr
+  google:
+    ad-client:
+    ad-slot:
+  bio:
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+  disqus-shortname: veronicabrandt
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]

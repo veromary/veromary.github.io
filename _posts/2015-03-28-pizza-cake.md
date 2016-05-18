@@ -2,6 +2,8 @@
 layout: post
 title: Pizza Cake
 category: Food
+image:
+   teaser: pizzacake400x250.jpg
 ---
 
 ![Pizza Cake]({{ site.url }}{{ base.url }}/images/pizzacake.jpg)

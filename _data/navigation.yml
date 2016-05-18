@@ -1,0 +1,25 @@
+# Site navigation links
+
+- title: Articles
+  url: /articles
+  excerpt: latest posts
+  image: tealbyspa400x250.jpg
+
+- title: About
+  url: /about
+  excerpt: who we are
+  image: family16400x250.jpg
+
+- title: Music
+  url: /music
+  excerpt: Gregorian chant and more
+  image: cutgood400x250.jpg
+
+- title: Education
+  url: /education
+
+- title: Drawings
+  url: http://www.peterbrandt.com.au
+
+- title: Contact
+  url: /contact
