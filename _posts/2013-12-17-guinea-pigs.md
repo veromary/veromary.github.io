@@ -2,6 +2,8 @@
 layout: post
 title: Guinea Pigs
 category: Photos
+image:
+   teaser: snowball400x250.jpg
 ---
 
 As if we didn’t already have enough cute going on around here.
