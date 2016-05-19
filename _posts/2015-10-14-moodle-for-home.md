@@ -2,6 +2,9 @@
 title: Moodle For Home
 layout: post
 category: Education
+image:
+  teaser: moodle-logo.jpg
+comments: true
 ---
 
 Moodle is a Learning Management System - the big open source megalith of the Learning Management landscape.

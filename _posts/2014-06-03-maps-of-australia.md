@@ -2,6 +2,9 @@
 layout: post
 title: Maps of Australia
 category: Education
+image:
+   teaser: Australia_location_map.jpg
+comments: true
 ---
 
 <a title="By Summerdrought [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons" href="http://commons.wikimedia.org/wiki/File%3AAustralian_River_system.svg"><img width="512" alt="Australian River system" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/67/Australian_River_system.svg/512px-Australian_River_system.svg.png"/></a>

@@ -2,7 +2,12 @@
 title: Raspberry Pi chat server in the home
 layout: post
 category: Computers
+image:
+   teaser: raspi400.jpg
+comments: true
 ---
+
+![Raspberry Pi](/images/raspi800.png)
 
 This morning's diversion was setting up a chat server on the Raspberry Pi.
 

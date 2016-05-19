@@ -3,6 +3,8 @@ layout: post
 title: A Term on Medieval History
 category: Education
 comments: true
+image:
+   teaser: amhc.jpg
 ---
 
 Last term we read through [Charlotte Yonge's History of Rome](http://www.gutenberg.org/ebooks/16667) which leads up to my favourite topic - Medieval Europe.
