@@ -2,6 +2,7 @@
 title: Teaching and Learning Latin
 category: Education
 layout: post
+comments: true
 ---
 
 ![multum legendum non multa]({{ site.url }}/images/multumlegendumnonmulta.jpg)
