@@ -1,6 +1,7 @@
 ---
 layout: default
 title: TeX gathering of Australia
+permalink: tex.html
 ---
 
 #Australian TeX Gathering
