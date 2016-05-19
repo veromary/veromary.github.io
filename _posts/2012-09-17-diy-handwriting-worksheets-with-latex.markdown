@@ -1,5 +1,4 @@
 ---
-author: Veronica Brandt
 comments: true
 date: 2012-09-17
 layout: post
