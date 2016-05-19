@@ -2,6 +2,7 @@
 layout: post
 title: Chesterbelloc copywork
 category: Education
+comments: true
 ---
 
 Here are some ideas for copywork from Project Gutenberg. Each link takes
@@ -13,7 +14,7 @@ change the font to something suitable to trace, like
 
 ### by Hillaire Belloc:
 
--   [Bad Child’s Book of Beasts](http://www.gutenberg.org/ebooks/27175)
+-   [Bad Child's Book of Beasts](http://www.gutenberg.org/ebooks/27175)
 -   [A Moral Alphabet](http://www.gutenberg.org/ebooks/40134)
 -   [Cautionary Tales for
     Children](http://www.gutenberg.org/ebooks/27424)
@@ -33,7 +34,7 @@ change the font to something suitable to trace, like
 
 -   [A Book of Nonsense by Edward
     Lear](http://www.gutenberg.org/ebooks/13646)
--   [A Child’s Garden of Verses by Robert Louis
+-   [A Child's Garden of Verses by Robert Louis
     Stevenson](http://www.gutenberg.org/ebooks/25609)
 
 Anything else? [Let me know](mailto:veronica@brandt.id.au)

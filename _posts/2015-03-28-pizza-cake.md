@@ -4,6 +4,7 @@ title: Pizza Cake
 category: Food
 image:
    teaser: pizzacake400x250.jpg
+comments: true
 ---
 
 ![Pizza Cake]({{ site.url }}{{ base.url }}/images/pizzacake.jpg)

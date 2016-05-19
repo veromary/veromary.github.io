@@ -2,6 +2,9 @@
 layout: post
 title: Chemistry Videos
 category: Education
+image:
+   teaser: martyn400x250.jpg
+comments: true
 ---
 
 Chemistry lectures - no - open day Chemistry lectures were a memorable highlight of my time at University.

@@ -5,6 +5,7 @@ category: Photos
 image: 
    feature:  bernardmodeling.jpg
    teaser: bernardmodeling400x250.jpg
+comments: true
 ---
 
 I got tired of cheap scapulars falling apart.  I started looking up how to make your own.  [The Catholic Encylopedia](http://newadvent.org/cathen) has an article on Scapulars which says:

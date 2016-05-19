@@ -2,6 +2,7 @@
 layout: post
 title: Teaching Coding
 categories: Computers Education
+comments: true
 ---
 
 Yesterday saw my first installment in the [Living Learning Coding Class](http://bmhen.org/events/event/living-learning-coding-with-veronica/).

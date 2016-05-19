@@ -2,6 +2,9 @@
 layout: post
 title: Print Etsy Inventory
 category: Computers
+comments: true
+image:
+   teaser: printetsy400x250.jpg
 ---
 
 [Working Online Demo](http://www.brandt.id.au/print-etsy-inventory)

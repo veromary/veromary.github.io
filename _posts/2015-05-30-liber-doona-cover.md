@@ -5,6 +5,7 @@ category: Music
 image:
    feature: liberdoonacover.jpg
    teaser: liberdoona400x250.jpg
+comments: true
 ---
 
 A crazy idea while doing the washing up:

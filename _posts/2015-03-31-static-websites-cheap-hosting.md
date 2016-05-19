@@ -2,6 +2,7 @@
 layout: post
 title: Static websites, cheap hosting
 category: Computers
+comments: true
 ---
 
 I've figured out a way to cut my hosting costs with [Github Pages](http://github.com/pages), [Form Spree](http://formspree.io) and [Feedburner](http://feedburner.com).
