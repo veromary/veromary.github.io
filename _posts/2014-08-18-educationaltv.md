@@ -2,6 +2,9 @@
 layout: post
 title: Educational TV
 category: Education
+image:
+  teaser: abclogo.jpg
+comments: true
 ---
 
 ![ABC TV education]({{ site.url }}/images/abctved.png)
