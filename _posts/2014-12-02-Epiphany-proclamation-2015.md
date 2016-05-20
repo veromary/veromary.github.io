@@ -2,7 +2,13 @@
 layout: post
 title: Epiphany Proclamation 2015
 category: Music
+image:
+  teaser: Adoration_of_the_Magi_Tapestry400.jpg
+comments: true
 ---
+
+![Adoration of the Magi](/images/Adoration_of_the_Magi_Tapestry.png)
+
 It's up and ready at [Music > Epiphany Proclamation]({{ site.url }}/music/epiphany.html)
 
 This year I had some feedback from Indonesia and had a look around for more about the proclamation of moveable feasts.

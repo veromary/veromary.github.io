@@ -6,9 +6,13 @@ slug: diy-handwriting-worksheets-with-latex
 title: DIY handwriting worksheets with LaTeX
 category: Education
 tags: handwriting
+image:
+   teaser: handwritingscripts400.jpg
 ---
 
 There are several [handwriting fonts](http://www.tug.dk/FontCatalogue/calligraphicalfonts.html) already designed in METAFONT - the native font engine for TeX and family.  Most of these are German, one Austrian, one French - that's just the ones I know of.
+
+![Handwriting Samples](/images/handwritingscripts.jpg)
 
 [handwriting-samples]({{ site.url }}/assets/pdf/handwriting-samples.pdf)
 

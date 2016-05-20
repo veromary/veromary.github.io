@@ -2,7 +2,12 @@
 layout: post
 title: Moving Wagga-wards
 category: House
+image:
+  teaser: wagga.jpg
+comments: true
 ---
+
+![Wagga logo](/images/wagga.jpg)
 
 We feel the need for more room, both inside and outside the house.
 
