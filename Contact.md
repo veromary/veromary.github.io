@@ -11,7 +11,8 @@ share: false
 <a href="http://veronica.brandt.id.au">Veronica</a> is the main admin person.  <a href="http://www.peterbrandt.com.au">Peter</a> is a bit more interesting.
 
 Or you can use this form to quickly write to us.
-  
+
+<fieldset>
 <form action="http://formspree.io/veroicon@gmail.com" method="POST">
     <label for="name">Name</label>    
     <input type="text" id="name" name="name" class="full-width"><br>
@@ -23,3 +24,4 @@ Or you can use this form to quickly write to us.
 <input type="text" name="_gotcha" style="display:none" />
     <input type="submit" value="Send" class="button">
   </form>
+</fieldset>
