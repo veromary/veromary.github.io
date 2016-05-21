@@ -18,7 +18,7 @@ The first thing to do to get your hotpotato up on your Wordpress blog is to uplo
 
 Wordpress.com is also fussy about what it embeds, so you can't embed it in a page, but people can click on your link to reach the hot potato.  Dropbox mixes up the addresses, so the Masher sets of hotpotato quizzes won't work.  Unless you have a self-hosted Wordpress.org site.
 
-###The Self Hosted Wordpress Way
+### The Self Hosted Wordpress Way
 
 Self hosted Wordpress *does* let you upload and embed html files.  First upload using the Media Library, then get the link address.
 
@@ -40,13 +40,13 @@ I hope that helps,
 
 Veronica
 
-###PS: the Github Pages way
+### PS: the Github Pages way
 
 There is another way that is free and very satisfying using [Github Pages](https://pages.github.com/).  It is also very useful for collaborative projects and keeping track of changes.  There is a lot to learn in the process, but if you are passionate about education, then that can be a bonus.
 
 This whole website is hosted with github pages now.
 
-###PPS: Quiz Faber
+### PPS: Quiz Faber
 
 An Italian programmer from Turin has made an awesome program that's even better than Hot Potatoes : [Quiz Faber](http://www.quizfaber.com)
 
