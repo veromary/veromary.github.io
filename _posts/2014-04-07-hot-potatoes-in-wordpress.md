@@ -24,11 +24,9 @@ Self hosted Wordpress *does* let you upload and embed html files.  First upload 
 
 In the page you want to embed your quiz, go to edit the page/post, switch from Visual to Text mode, use this code:
 
-{% highlight html linenos=table %}
 
-<iframe src="http://yourwebsite.com/path-to-your.htm" height="400" width="400"></iframe>
+    <iframe src="http://yourwebsite.com/path-to-your.htm" height="400" width="400"></iframe>
 
-{% endhighlight %}
 
 Which should give something like this:
 
