@@ -1,6 +1,7 @@
 ---
 title: Education
-layout: article
+layout: archive
+comments: true
 ---
 
  * [Khan Academy](http://khanacademy.org)
