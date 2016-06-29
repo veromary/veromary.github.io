@@ -23,8 +23,8 @@ Each week I'm endeavouring to make up a worksheet with Exercise A of each chapte
 9. The Attributes of God
 10. The New Testament as an Historical Record
 11. Christ’s Claim and How He proved it
-12 Christ still Teaches us Through His Church [Exercise A worksheet and answers](ch12exA.pdf)
-13 The Marks of the True Church [Exercise A worksheet and answers](ch13exA.pdf)
+12. Christ still Teaches us Through His Church [Exercise A worksheet and answers](ch12exA.pdf)
+13. The Marks of the True Church [Exercise A worksheet and answers](ch13exA.pdf)
 14. The Mystical Body of Christ [Exercise A worksheet and answers](ch14exA.pdf)
 15. Tradition [Exercise A worksheet and answers](ch15exA.pdf)
 16. The Bible as Inspired [Exercise A worksheet and answers](ch16exA.pdf)
