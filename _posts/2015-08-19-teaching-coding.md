@@ -3,7 +3,11 @@ layout: post
 title: Teaching Coding
 categories: Computers Education
 comments: true
+image:
+  teaser: Living-learning400.jpg
 ---
+
+![Makeshift computer lab](/images/Living-learning.png)
 
 Yesterday saw my first installment in the [Living Learning Coding Class](http://bmhen.org/events/event/living-learning-coding-with-veronica/).
 
