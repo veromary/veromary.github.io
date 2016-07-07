@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Anki Catechism
-category: education
+category: Education
 image:
    teaser: anki400x250.jpg
 comments: true
