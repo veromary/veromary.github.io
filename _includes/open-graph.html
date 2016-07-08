@@ -6,9 +6,11 @@
 	{% if page.image.feature %}
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:image" content="{{ site.url }}/images/{{ page.image.feature }}">
+	<meta itemprop="image" content="{{ site.url }}/images/{{ page.image.feature }}">
 	{% else %}
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:image" content="{% if page.image.teaser %}{{ site.url }}/images/{{ page.image.teaser }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
+	<meta itemprop="image" content="{% if page.image.teaser %}{{ site.url }}/images/{{ page.image.teaser }}{% else %}{{ site.url }}/images/{{ site.logo }}{% endif %}">
 	{% endif %}
 	<!-- Open Graph -->
 	<meta property="og:locale" content="{{ site.locale }}">
