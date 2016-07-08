@@ -8,8 +8,6 @@ image:
   teaser: hotpot.jpg
 ---
 
-![Hot Potatoes](/images/hotpot.jpg)
-
 This page started life as an incoherent test post, but turns out to be one of the most popular articles, so here goes making it coherent.
 
 The first thing to do to get your hotpotato up on your Wordpress blog is to upload it.  Now, Wordpress.com doesn't let you upload html files.  You could upload your html file to [Dropbox](http://dropbox.com) and make a link to that file [like this](https://www.dropbox.com/s/9ipscc4si3cy0iv/test.htm?dl=0)
