@@ -11,6 +11,8 @@ layout: default
 				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
 			</div><!-- /.page-image -->
 		</div><!-- /.page-feature -->
+                {% elsif page.image.teaser %}
+                <img src="{{ site.url }}/images/{{ page.image.teaser }}" alt="{{ page.title }}" itemprop="image">
 		{% endif %}
 		{% include breadcrumbs.html %}
 		<div class="page-title">
