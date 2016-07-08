@@ -12,7 +12,7 @@ layout: default
 			</div><!-- /.page-image -->
 		</div><!-- /.page-feature -->
                 {% elsif page.image.teaser %}
-                <img src="{{ site.url }}/images/{{ page.image.teaser }}" alt="{{ page.title }}" itemprop="image">
+                <img itemprop="image" src="{{ site.url }}/images/{{ page.image.teaser }}" alt="{{ page.title }}" />
 		{% endif %}
 		{% include breadcrumbs.html %}
 		<div class="page-title">
