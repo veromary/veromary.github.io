@@ -12,7 +12,7 @@ Fr Edward Caswall was a quiet hero of the Oxford Movement who translated hymns a
 
 The book is a series of exercises consisting of putting together the Latin from the Mass and other popular devotions with their English translations. It does include a short Latin Grammar, but much is just a straight patching of Latin onto English. Sections are designed to cater for different groups of the faithful – one for servers, another for choirs, though there’s nothing to stop you going through all the sections.
 
-Because of this correspondence between the Latin and the English it lends itself to flash card programs like Hot Potatoes, [Quizlet.com](http://quizlet.com/class/140924/) and Anki. So the plan here is to collect supporting online materials to make this book more useful.
+Because of this correspondence between the Latin and the English it lends itself to flash card programs like Hot Potatoes, [Quizlet.com](https://quizlet.com/Brandts/folders/catholics-latin-instructor) and Anki. So the plan here is to collect supporting online materials to make this book more useful.
 
 Table of Contents:
 ------------------
