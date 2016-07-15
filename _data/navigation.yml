@@ -1,14 +1,14 @@
 # Site navigation links
 
-- title: Articles
-  url: /articles
-  excerpt: latest posts
-  image: tealbyspa400x250.jpg
-
 - title: About
   url: /about
   excerpt: who we are
   image: family16400x250.jpg
+
+- title: Articles
+  url: /articles
+  excerpt: latest posts
+  image: tealbyspa400x250.jpg
 
 - title: Music
   url: /music
@@ -17,9 +17,12 @@
 
 - title: Education
   url: /education
+  excerpt: homeschooling
+  image: Living-learning400.jpg
 
 - title: Drawings
   url: http://www.peterbrandt.com.au
+  excerpt: Peter's pastels
 
 - title: Contact
   url: /contact
