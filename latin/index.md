@@ -1,7 +1,15 @@
 ---
-layout: default
-title: Catholic's Latin Instructor
+layout: article
+title: Learning Latin
 ---
+
+A few other projects:
+
+* [Ora Maritima](http://www.brandt.id.au/oramaritima) - a reader with grammar and exercises from 1908
+* [Orbis Pictus](http://www.brandt.id.au/orbispictus) - a reader from centuries ago - world's first picture book
+* [New Book of Old Hymns](http://www.brandt.id.au/newbookoldhymns) - lots of Latin hymns
+
+On to the original aim of this page:
 
 Catholic's Latin Instructor
 ===========================
@@ -54,7 +62,7 @@ Table of Contents:
 ### Index to both parts
 
 
-#Bible handwriting
+# Bible handwriting
 
 Some random pages of handwriting practice using the free fonts Jarman and [Briem](http://briem.net)
 
