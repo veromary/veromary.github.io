@@ -1,11 +1,12 @@
 ---
 title: Mass
-layout: default
+layout: straightpage
+redirect_from: /latin/mass.html
 ---
 
-#Chapter 2
+# Chapter 2
 
-##Mass
+## Mass
 
 Vocabulary for choir and congregation.
 
@@ -14,8 +15,8 @@ Vocabulary for choir and congregation.
  * Credo
  * Sanctus
  * Agnus Dei
- * [Exercise 1]({{ site.url }}/latin/massex1.html)
- * [Exercise 2]({{ site.url }}/latin/massex2.html)
+ * [Exercise 1]({{ site.url }}/latin/massex1)
+ * [Exercise 2]({{ site.url }}/latin/massex2)
 
 [back to Catholic's Latin Instructor]({{ site.url }}/latin/)
 

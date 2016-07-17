@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: straightpage
 title: Server Latin
+comments: true
 ---
 
 #Chapter 3
@@ -20,9 +21,9 @@ It's still good for both groups to know both prayers, but for beginners it's goo
  * Orate and Suscipiat
  * Commencement of Preface
  * Sed libera nos, &amp;c.
- * [Exercise 1]({{ site.url }}/latin/serverex1.html)
- * [Exercise 2a]({{ site.url }}/latin/serverex2.html)
- * [Exercise 2b]({{ site.url }}/latin/serverex2b.html)
+ * [Exercise 1]({{ site.url }}/latin/serverex1)
+ * [Exercise 2a]({{ site.url }}/latin/serverex2)
+ * [Exercise 2b]({{ site.url }}/latin/serverex2b)
 
 [back to Catholic's Latin Instructor]({{ site.url }}/latin/)
 
