@@ -4,9 +4,9 @@ title: Server Latin
 comments: true
 ---
 
-#Chapter 3
+# Chapter 3
 
-##Server Latin
+## Server Latin
 
 The [Catholic's Latin Instructor]({{ site.url }}/latin/) separates the parts of the Mass for the choir and congregation from the parts of the Mass for the altar servers.
 
