@@ -10,6 +10,10 @@
     {% endif %}
     {% include open-graph.html %}
 
+    {% if page.gloss %}
+<link rel="stylesheet" href="//cdn.jsdelivr.net/leipzig/latest/leipzig.min.css">
+<script src="//cdn.jsdelivr.net/leipzig/latest/leipzig.min.js"></script>
+    {% endif %}
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     {% if page.image.teaser %}
     <link rel="image_src" href="{{ site.url }}/images/{{ page.image.teaser }}"/>

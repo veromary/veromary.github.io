@@ -14,7 +14,7 @@ The 1965/1970 changes to the Mass blurred the old layering of the Mass whereby s
 
 It's still good for both groups to know both prayers, but for beginners it's good to have a narrower focus on the vocabulary that will be most useful in each case.
 
- * Judica me
+ * [Judica me]({{ site.url }}/latin/judicame)
  * Confiteor
  * Versicles
  * Responses at Epistle and Gospel
