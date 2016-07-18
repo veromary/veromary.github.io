@@ -62,15 +62,15 @@ and {have brought me} {to thy holy hill,} and {to thy tabernacles.}</p>
 meam.</p> 
 <p>S. Et introibo ad altare Dei, ad Deum qui laetificat juventutem 
 meam.</p> 
-<p>{I will go in} to {the altar} {of God.}</p>
+<p>S. And {I will go in} to {the altar} {of God.}</p>
 </div>
 
 <div data-gloss>
-<p>P. Confitebor tibi in cithara, Deus, Deus mcus : quare tristis 
+<p>P. Confitebor tibi in cithara, Deus, Deus meus : quare tristis 
 es, anima mea, et quare conturbas me?</p> 
-<p>P. Confitebor tibi in cithara, Deus, Deus mcus : quare tristis 
-es, anima mea, et quare conturbas me?</p> 
-<p>P. </p>
+<p>P. Confitebor tibi {in cithara,} Deus, {Deus meus:} quare 
+es tristis, anima mea, et quare {conturbas me?}</p> 
+<p>P. {I will give praise} {to thee} {on the harp,} {O God,} {my God:} wherefore {art thou} sad {my soul}, and wherefore {dost thou disquiet me?} </p>
 </div>
 
 
