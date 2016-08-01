@@ -49,8 +49,8 @@ Each week I'm endeavouring to make up a worksheet with Exercise A of each chapte
 35. Supernatural Virtues [Exercise A worksheet and answers](ch35exA.pdf)
 36. Faith [Exercise A worksheet and answers](ch36exA.pdf)
 37. Hope [Exercise A worksheet and answers](ch37exA.pdf)
-38. Charity in Regard to God
-39. Charity in Regard to Our Neighbour
+38. Charity in Regard to God [Exercise A worksheet and answers](ch38exA.pdf)
+39. Charity in Regard to Our Neighbour [Exercise A worksheet and answers](ch39exA.pdf)
 40. The Gifts of the Holy Ghost
 41. Prayer
 42. The Sacraments
