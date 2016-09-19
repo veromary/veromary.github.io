@@ -1,7 +1,7 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2016.8.24)  19 SEP 2016 14:11
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2016.8.24)  19 SEP 2016 14:51
  restricted system commands enabled.
-**ch43.tex
-(./ch43.tex
+**ch44.tex
+(./ch44.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -197,7 +197,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.137 seconds)
+luaotfload | main : initialization completed in 0.135 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -1424,55 +1424,56 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip54
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+\c@z=\count155
 
-(./ch43.aux)
-\openout1 = ch43.aux
+(./ch44.aux)
+\openout1 = ch44.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 33.
  (/usr/share/texmf/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 26.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 *** you should *not* be loading the inputenc package
 *** XeTeX expects the source to be in UTF8 encoding
 *** some features of other encodings may conflict, resulting in poor output.
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
+\scratchcounter=\count156
 \scratchdimen=\dimen163
 \scratchbox=\box44
-\nofMPsegments=\count156
-\nofMParguments=\count157
+\nofMPsegments=\count157
+\nofMParguments=\count158
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count158
+\MPscratchCnt=\count159
 \MPscratchDim=\dimen164
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
+\MPnumerator=\count160
+\makeMPintoPDFobject=\count161
 \everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1498,67 +1499,67 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 .................................................
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 26.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 26.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 26.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 26.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 26.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 26.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 26.
-LaTeX Font Info:    Redeclaring math accent \check on input line 26.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 26.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 26.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 26.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 26.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 26.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 33.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 33.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 33.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 33.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 33.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 33.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 33.
+LaTeX Font Info:    Redeclaring math accent \check on input line 33.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 33.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 33.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 33.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 33.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 33.
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `normal' on input line 26.
+(Font)              `operators' in the math version `normal' on input line 33.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU2/LinLibertine(0)/m/n on input line 26
+(Font)                  OT1/cmr/m/n --> EU2/LinLibertine(0)/m/n on input line 33
 .
 LaTeX Font Info:    Encoding `OT1' has changed to `EU2' for symbol font
-(Font)              `operators' in the math version `bold' on input line 26.
+(Font)              `operators' in the math version `bold' on input line 33.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU2/LinLibertine(0)/m/n on input line 2
-6.
+(Font)                  OT1/cmr/bx/n --> EU2/LinLibertine(0)/m/n on input line 3
+3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  EU2/LinLibertine(0)/m/n --> EU2/LinLibertine(0)/m/n on i
-nput line 26.
+nput line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> EU2/LinLibertine(0)/m/it on input line 
-26.
+33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> EU2/LinLibertine(0)/bx/n on input line 
-26.
+33.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> EU2/LinBiolinum(0)/m/n on input line 26
+(Font)                  OT1/cmss/m/n --> EU2/LinBiolinum(0)/m/n on input line 33
 .
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> EU2/LinLibertine(5)/m/n on input line 2
-6.
+(Font)                  OT1/cmtt/m/n --> EU2/LinLibertine(5)/m/n on input line 3
+3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  EU2/LinLibertine(0)/m/n --> EU2/LinLibertine(0)/bx/n on 
-input line 26.
+input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> EU2/LinLibertine(0)/bx/it on input lin
-e 26.
+e 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> EU2/LinBiolinum(0)/bx/n on input line 
-26.
+33.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> EU2/LinLibertine(5)/bx/n on input line 
-26.
+33.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1595,66 +1596,84 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box45
-Package hyperref Info: Link coloring ON on input line 26.
+Package hyperref Info: Link coloring ON on input line 33.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count161
+\c@section@level=\count162
 )
-LaTeX Info: Redefining \ref on input line 26.
-LaTeX Info: Redefining \pageref on input line 26.
-LaTeX Info: Redefining \nameref on input line 26.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
-(./ch43.out) (./ch43.out)
+(./ch44.out) (./ch44.out)
 \@outlinefile=\write3
 
-\openout3 = ch43.out
+\openout3 = ch44.out
 
-Overfull \hbox (2.42259pt too wide) in paragraph at lines 42--43
-[]\EU2/LinLibertine(0)/m/n/10 4. He said to His Apos-tles: “Go-ing, there-for
-e, teach all na-tions, _ _ _ _ _ _ _
+Overfull \hbox (4.51257pt too wide) in paragraph at lines 59--60
+[]\EU2/LinLibertine(0)/m/n/10 6. The re-mote mat-ter is all  _ _ _ _ _ _ _ _ si
+ns com-mit-ted af-ter  _ _ _ _ _ _ _ _;
+ []
+
+
+Overfull \hbox (2.24254pt too wide) in paragraph at lines 69--70
+[]\EU2/LinLibertine(0)/m/n/10 11. In per-fect con-tri-tion the mo-tive flows fr
+om su-per-nat-u-ral  _ _ _ _ _ _ _ _,
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (10.83928pt too wide) in paragraph at lines 94--95
-[]\EU2/LinLibertine(0)/m/n/10 30. It gives us, too, a share in the virtues dis-
-played by Christ as a _ _ _ _ _ _ _ ,
+Overfull \hbox (0.51921pt too wide) in paragraph at lines 79--80
+[]\EU2/LinLibertine(0)/m/n/10 16. Con-tri-tion should have these four qual-i-ti
+es: it should be  _ _ _ _ _ _ _ _,
  []
 
-[2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
- (./ch43.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
-Package rerunfilecheck Info: File `ch43.out' has not changed.
+
+Overfull \hbox (22.70255pt too wide) in paragraph at lines 85--86
+[]\EU2/LinLibertine(0)/m/n/10 19. We should pre-pare for con-fes-sion by pray-i
+ng for grace and by  _ _ _ _ _ _ _ _. 
+ []
+
+
+Overfull \hbox (4.74846pt too wide) in paragraph at lines 93--94
+[]\EU2/LinLibertine(0)/m/n/10 23. I must tell them ac-cord-ing to their  _ _ _ 
+_ _ _ _ _ and their  _ _ _ _ _ _ _ _. 
+ []
+
+[2] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 136.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 136.
+ (./ch44.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 136.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 136.
+Package rerunfilecheck Info: File `ch44.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 136.
 )
 
 Here is how much of LuaTeX's memory you used:
- 30785 strings out of 495118
+ 30797 strings out of 495118
  100000,662416 words of node,token memory allocated
- 1438 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 114 glue, 1 kern, 60 attribute, 48 glue_spec, 60 at
+ 1332 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 104 glue, 1 kern, 51 attribute, 48 glue_spec, 51 at
 tribute_list, 1 write nodes
-   avail lists: 2:151,3:258,4:34,5:288,6:2639,7:1345,8:2,9:66,10:23,11:186
- 33058 multiletter control sequences out of 65536+600000
+   avail lists: 2:355,3:194,4:32,5:315,6:3131,7:1283,8:7,9:74,10:23,11:236
+ 33064 multiletter control sequences out of 65536+600000
  43 fonts using 7859555 bytes
- 50i,5n,69p,342b,347s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 50i,6n,69p,433b,347s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/opentype/linux-libertine/LinLibertine_RBI.otf></usr/local/shar
 e/fonts/JARDOTTY.ttf></usr/share/fonts/opentype/linux-libertine/LinLibertine_R.o
 tf>
-Output written on ch43.pdf (3 pages, 36104 bytes).
+Output written on ch44.pdf (4 pages, 41559 bytes).
 
-PDF statistics: 42 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 131072)
+PDF statistics: 51 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
