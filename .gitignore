@@ -3,3 +3,10 @@ _site
 .DS_Store
 .ruby-version
 .~lock*
+.aux
+.gaux
+.log
+.nav
+.toc
+.snm
+.out
