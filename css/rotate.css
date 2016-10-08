@@ -1,7 +1,9 @@
-h3#martyrdate {
+div.martyr h3 {
     font-size: 1em;
     font-family: sans-serif;
+    margin-bottom: 2px;
 }
-p#martyrexcerpt {
+div.martyr p {
     font-size: 1em;
+    margin-top: 2px;
 }
