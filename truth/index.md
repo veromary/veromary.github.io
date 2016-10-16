@@ -51,13 +51,13 @@ Each week I'm endeavouring to make up a worksheet with Exercise A of each chapte
 37. Hope [Exercise A worksheet and answers](ch37exA.pdf)
 38. Charity in Regard to God [Exercise A worksheet and answers](ch38exA.pdf)
 39. Charity in Regard to Our Neighbour [Exercise A worksheet and answers](ch39exA.pdf)
-40. The Gifts of the Holy Ghost
-41. Prayer
-42. The Sacraments
-43. Baptism
-44. Penance
-45. Confirmation
-46. The Eucharist
+40. The Gifts of the Holy Ghost [Exercise A worksheet and answers](ch40exA.pdf)
+41. Prayer [Exercise A worksheet and answers](ch41exA.pdf)
+42. The Sacraments [Exercise A worksheet and answers](ch42exA.pdf)
+43. Baptism [Exercise A worksheet and answers](ch43.pdf)
+44. Penance [Exercise A worksheet and answers](ch44.pdf)
+45. Confirmation [Exercise A worksheet and answers](ch45.pdf) - [Summary slideshow](beamer/ch45.pdf)
+46. The Eucharist [Exercise A worksheet and answers](ch46.pdf) - [Summary slideshow](beamer/ch46.pdf)
 47. The Mass as a Sacrifice
 48. The Liturgy of the Mass
 49. Extreme Unction

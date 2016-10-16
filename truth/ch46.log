@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2016.9.26)  16 OCT 2016 15:04
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=lualatex 2016.9.26)  17 OCT 2016 10:48
  restricted \write18 enabled.
 **ch46
 (./ch46.tex
@@ -242,7 +242,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.031 seconds
+luaotfload | main : fontloader loaded in 0.088 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_linebreak_filter'
 luatexbase-mcb: inserting 'luaotfload.node_processor'
@@ -2355,7 +2355,7 @@ is-ci-pline of the  _ _ _ _ _ _ _ _.
 luaotfload | load : Lookup/name: "JARDOTTY" -> "JARDOTTY.ttf" [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (13.1926pt too wide) in paragraph at lines 135--137
+Overfull \hbox (13.1926pt too wide) in paragraph at lines 134--136
 [][]\EU2/LinLibertine(0)/m/n/10 30. The Eu-charist is an in-finitely pre-cious 
 trea-sure, be-cause it is  _ _ _ _ _ _ _ _
  []
@@ -2365,15 +2365,15 @@ luaotfload | load : path lookup of "LinLibertine_RB.otf" unsuccessful, falling b
 ack to file:
 luaotfload | load : path lookup of "LinLibertine_RBI.otf" unsuccessful, falling 
 back to file:
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 180.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
  [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 180.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./ch46.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 180.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 180.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `ch46.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 180.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
 )
 
 Here is how much of LuaTeX's memory you used:
@@ -2384,16 +2384,15 @@ Here is how much of LuaTeX's memory you used:
 ute_list, 1 write nodes
    avail lists: 2:6865,3:246,4:678,5:252,6:2209,7:586,8:2,9:66,10:131
  33175 multiletter control sequences out of 65536+600000
- 61 fonts using 9249783 bytes
+ 61 fonts using 9249763 bytes
  55i,6n,63p,455b,339s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/opentype/linux-libertine/LinLibertine_RBI.otf></usr/local/shar
 e/fonts/JARDOTTY.ttf></usr/share/fonts/opentype/linux-libertine/LinLibertine_R.o
-tf><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><</
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on ch46.pdf (3 pages, 52301 bytes).
+tf><</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on ch46.pdf (3 pages, 44621 bytes).
 
-PDF statistics: 50 PDF objects out of 1000 (max. 8388607)
- 33 compressed objects within 1 object stream
+PDF statistics: 46 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
