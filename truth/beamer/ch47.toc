@@ -1,5 +1,0 @@
-\beamer@endinputifotherversion {3.33pt}
-\select@language {english}
-\beamer@sectionintoc {1}{The Mass as a Sacrifice}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Pre-eminence}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{Last Supper, Mass and Calvary}{16}{0}{1}
