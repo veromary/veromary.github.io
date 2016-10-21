@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.36pt}
+\beamer@endinputifotherversion {3.33pt}
 \select@language {english}
 \beamer@sectionintoc {1}{The Eucharist}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Looking at the Bible}{3}{0}{1}
