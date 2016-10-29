@@ -58,7 +58,7 @@ Each week I'm endeavouring to make up a worksheet with Exercise A of each chapte
 44. Penance [Exercise A worksheet and answers](ch44.pdf)
 45. Confirmation [Exercise A worksheet and answers](ch45.pdf) - [Summary slideshow](beamer/ch45.pdf)
 46. The Eucharist [Exercise A worksheet and answers](ch46.pdf) - [Summary slideshow](beamer/ch46.pdf)
-47. The Mass as a Sacrifice
+47. The Mass as a Sacrifice [Exercise A worksheet and answers](ch47.pdf) - [Summary slideshow](beamer/ch47.pdf)
 48. The Liturgy of the Mass
 49. Extreme Unction
 50. Holy Orders
