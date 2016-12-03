@@ -1,6 +1,6 @@
 ---
 title: Living the Truth
-layout: default
+layout: article
 ---
 
 Living the Truth
