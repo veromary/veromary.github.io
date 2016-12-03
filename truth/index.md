@@ -59,11 +59,11 @@ Each week I'm endeavouring to make up a worksheet with Exercise A of each chapte
 45. Confirmation [Exercise A worksheet and answers](ch45.pdf) - [Summary slideshow](beamer/ch45.pdf)
 46. The Eucharist [Exercise A worksheet and answers](ch46.pdf) - [Summary slideshow](beamer/ch46.pdf)
 47. The Mass as a Sacrifice [Exercise A worksheet and answers](ch47.pdf) - [Summary slideshow](beamer/ch47.pdf)
-48. The Liturgy of the Mass [Exercise A worksheet and answers](ch48.pdf)
-49. Extreme Unction
-50. Holy Orders
-51. Matrimony
-52. Death and Judgment
+48. The Liturgy of the Mass [Exercise A worksheet and answers](ch48.pdf) - [Summary slideshow](beamer/ch48.pdf)
+49. Extreme Unction [Exercise A worksheet and answers](ch49.pdf) - [Summary slideshow](beamer/ch49.pdf)
+50. Holy Orders [Exercise A worksheet and answers](ch50.pdf) - [Summary slideshow](beamer/ch50.pdf)
+51. Matrimony [Exercise A worksheet and answers](ch51.pdf) - [Summary slideshow](beamer/ch51.pdf)
+52. Death and Judgment [Exercise A worksheet and answers](ch52.pdf) - [Summary slideshow](beamer/ch52.pdf)
 53. Purgatory
 54. Heaven and Hell
 55. The End of the World
