@@ -3,9 +3,6 @@ title: Living the Truth
 layout: article
 ---
 
-Living the Truth
-================
-
 C P Bowler wrote a series of booklets aimed at high school students in New Zealand.
 
 They make an awesome introduction to Thomistic Philosophy and general Catholic teaching.
@@ -64,8 +61,8 @@ Each week I'm endeavouring to make up a worksheet with Exercise A of each chapte
 50. Holy Orders [Exercise A worksheet and answers](ch50.pdf) - [Summary slideshow](beamer/ch50.pdf)
 51. Matrimony [Exercise A worksheet and answers](ch51.pdf) - [Summary slideshow](beamer/ch51.pdf)
 52. Death and Judgment [Exercise A worksheet and answers](ch52.pdf) - [Summary slideshow](beamer/ch52.pdf)
-53. Purgatory
-54. Heaven and Hell
+53. Purgatory [Exercise A worksheet and answers](ch53.pdf) - [Summary slideshow](beamer/ch53.pdf)
+54. Heaven and Hell [Exercise A worksheet and answers](ch54.pdf) - [Summary slideshow](beamer/ch54.pdf)
 55. The End of the World
 
 
