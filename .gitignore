@@ -13,3 +13,5 @@ _site
 *.log
 *.dvi
 *.swp
+*.gtex
+*.glog
