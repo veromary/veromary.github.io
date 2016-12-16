@@ -63,7 +63,8 @@ Each week I'm endeavouring to make up a worksheet with Exercise A of each chapte
 52. Death and Judgment [Exercise A worksheet and answers](ch52.pdf) - [Summary slideshow](beamer/ch52.pdf)
 53. Purgatory [Exercise A worksheet and answers](ch53.pdf) - [Summary slideshow](beamer/ch53.pdf)
 54. Heaven and Hell [Exercise A worksheet and answers](ch54.pdf) - [Summary slideshow](beamer/ch54.pdf)
-55. The End of the World
+55. The End of the World [Exercise A worksheet and answers](ch55.pdf) - [Summary slideshow](beamer/ch55.pdf)
+
 
 
 I'm not sure of the copyright of the booklets.  A teacher has scanned in and converted the entire series to word doc files, one for each chapter.  I will try see about permission to make that available here.
