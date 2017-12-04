@@ -18,6 +18,10 @@ layout: default
 					{% include page-author.html %}
 					{% include page-meta.html %}
 				</footer><!-- /.footer -->
+				<aside>
+					{% if page.comments == true %}{% include comments.html %}{% endif %}
+				</aside>
+
 				</div><!-- /.content -->
 		</div><!-- /.inner-wrap -->
 	</article><!-- ./wrap -->
