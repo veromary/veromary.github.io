@@ -4,6 +4,13 @@ layout: default
 
 <div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+         {% if page.image.teaser %}
+      <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+		<img itemprop="url" src="{{ site.url }}/images/{{ page.image.teaser }}" height="200" width="400" />
+    <meta itemprop="height" content="200" />
+    <meta itemprop="width" content="400" />
+        </div>
+		{% endif %}
 		{% include breadcrumbs.html %}
 		<div class="page-title">
 		<h1>{{ page.title }}</h1>
