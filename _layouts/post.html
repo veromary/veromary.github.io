@@ -4,14 +4,7 @@ layout: default
 
 <div id="main" role="main">
 	<article class="wrap" itemscope itemtype="http://schema.org/Article">
-		{% if page.image.feature %}
-		<div class="page-feature">
-			<div class="page-image">
-				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="thumbnailUrl">
-				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
-			</div><!-- /.page-image -->
-		</div><!-- /.page-feature -->
-                {% elsif page.image.teaser %}
+		{% if page.image.teaser %}
       <div itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
 		<img itemprop="url" src="{{ site.url }}/images/{{ page.image.teaser }}" height="200" width="400" />
     <meta itemprop="height" content="200" />
