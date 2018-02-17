@@ -26,9 +26,11 @@ Because of this correspondence between the Latin and the English it lends itself
 Table of Contents:
 ------------------
 
+* [Preface]({{ site.url }}/latin/preface/)
+
 ### Part I
 
-* Chapter 1 – [Benediction]({{ site.url }}/latin/benediction)
+* Chapter 1 – [Benediction]({{ site.url }}/latin/benediction/)
 * Chapter 2 – [Mass]({{ site.url }}/latin/mass)
 * Chapter 3 – [Serving at Mass]({{ site.url }}/latin/server)
 * Chapter 4 – Various Prayers and Offices
