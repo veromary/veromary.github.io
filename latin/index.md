@@ -31,7 +31,7 @@ Table of Contents:
 ### Part I
 
 * Chapter 1 – [Benediction]({{ site.url }}/latin/benediction/)
-* Chapter 2 – [Mass]({{ site.url }}/latin/mass)
+* Chapter 2 – [Mass]({{ site.url }}/latin/mass/)
 * Chapter 3 – [Serving at Mass]({{ site.url }}/latin/server)
 * Chapter 4 – Various Prayers and Offices
        + Section 1
