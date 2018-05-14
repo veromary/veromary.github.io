@@ -11,6 +11,15 @@ image:
 <div class="tiles">
 
 <div class="tile">
+  <h2 class="post-title">Latest Post:</h2>
+<p class="post-title">{% assign latestPost = site.posts | first %}
+<a href="{{ site.url }}{{ latestPost.url }}">{{ latestPost.title }}
+<img src="{{ site.url }}/images/{{ latestPost.image.teaser }}"></a></p>
+<p class="post-excerpt">{{ latestPost.excerpt }}</p>
+</div><!-- /.tile -->
+
+
+<div class="tile">
   <h2 class="post-title"><a href="http://www.peterbrandt.com.au">Portraits by Peter Brandt</a></h2>
 <a href="http://www.peterbrandt.com.au"><img src="{{ site.url }}/images/pb.jpg"></a>
   <p class="post-excerpt">Paintings in pastel and charcoal on fabric - people, pets, places, cars, musical instruments, watches, always something new.</p>
@@ -30,17 +39,18 @@ and some English hymns.</p>
 </div><!-- /.tile -->
 
 <div class="tile">
-  <h2 class="post-title">And more...</h2>
-  <p class="post-excerpt"><a href="latin">Catholic's Latin Instructor</a>, <a href="truth">C P Bowler's Living the Truth</a>, <a href="http://www.kidschant.com">Kids Chant</a>, <a href="http://www.repleatur.net">Repleatur: the choir webpage</a>, <a href="http://www.portraitsfrom.photos">Portraits from Photos</a>, <a href="littleOffice">Little Office of the Blessed Virgin Mary</a> and <a href="http://veronica.brandt.id.au">Veronica's stuff</a>.</p>
-</div><!-- /.tile -->
-
-<div class="tile">
 <h2 class="post-title">Roman Martyrology</h2>
 <p class="post-excerpt">Saints of the day from a book from 1908 traditionally read the day before at the hour of Prime.</p>
 <div class="martyr">
 <script type="text/javascript" src="http://www.brandt.id.au/roman-martyrology/js/rotate.js"></script>
 </div>
 </div><!-- /.tile -->
+
+<div class="tile">
+  <h2 class="post-title">And more stuff:</h2>
+  <p class="post-excerpt"><a href="latin">Catholic's Latin Instructor</a>, <a href="truth">C P Bowler's Living the Truth</a>, <a href="http://www.kidschant.com">Kids Chant</a>, <a href="http://www.repleatur.net">Repleatur: the choir webpage</a>, <a href="http://www.portraitsfrom.photos">Portraits from Photos</a>, <a href="littleOffice">Little Office of the Blessed Virgin Mary</a> and <a href="http://veronica.brandt.id.au">Veronica's stuff</a>.</p>
+</div><!-- /.tile -->
+
 
 
 </div><!-- /.tiles -->
