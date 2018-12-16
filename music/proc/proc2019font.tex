@@ -2,17 +2,20 @@
 \usepackage[british,latin]{babel}
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures=TeX}
-\setmainfont{Linux Libertine O}
-\newfontfamily{\llinitial}{Linux Libertine Initials O}
+%\setmainfont{Linux Libertine O}
+\setmainfont[ItalicFont={Mezalia Cursive}]{Mezalia Regular}
+\setsansfont{Mezalia Sans Regular}
+\newfontfamily{\anavio}{Mezalia_Initials Regular}
 \usepackage{fullpage}
 \usepackage{color}
 \usepackage{gregoriotex}
 
 \makepagestyle{plain}
-\makeevenfoot{plain}{}{\small (Veronica Brandt http://www.brandt.id.au)}{}
-%\makeoddfoot{plain}{}{\small (Veronica Brandt http://www.brandt.id.au)}{}
+\makeevenfoot{plain}{}{\small \sffamily Veronica Brandt \qquad http://www.brandt.id.au}{}
+\makeoddfoot{plain}{}{}{}
 
-%\grechangestyle{initial}{\llinitial\fontsize{42}{42}\selectfont}
+\greloadspaceconf{myspaces}
+\grechangestyle{initial}{\anavio\fontsize{42}{42}\selectfont}
 \pagestyle{plain}
 
 \begin{document}
