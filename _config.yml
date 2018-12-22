@@ -6,8 +6,8 @@ logo: apple-touch-icon-120x120.png # 120x120 px default image used for Twitter s
 teaser: tealbyspa400x250.jpg # 400x250 px default teaser image used in image archive grid
 locale: en
 #url: http://localhost:4000
-url: http://www.brandt.id.au
-shareurl: http://www.brandt.id.au
+url: http://veromary.github.io
+shareurl: http://veromary.github.io
 google_analytics: UA-39801667-1
 
 # Jekyll configuration
